@@ -1,0 +1,13 @@
+Color Pallete
+--space-indigo: #25283dff;
+--grape-soda: #8f3985ff;
+--amethyst-smoke: #a675a1ff;
+--dust-grey: #cecfc7ff;
+--lilac-ash: #ada8b6ff;
+--dark-amethyst: #23022eff;
+--indigo-velvet: #573280ff;
+--White : #ffffffff
+
+Typography
+--Roboto Mono (Medium)
+--Montserrat (Light)

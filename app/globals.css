@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@theme {
+  /* ---- brand colors (brand_assets/brand_guideline.txt) ---- */
+  --color-primary: #573280; /* indigo-velvet */
+  --color-primary-hover: color-mix(in srgb, #573280 88%, black);
+  --color-primary-active: color-mix(in srgb, #573280 76%, black);
+  --color-secondary: #8f3985; /* grape-soda */
+  --color-secondary-hover: color-mix(in srgb, #8f3985 88%, black);
+  --color-accent: #a675a1; /* amethyst-smoke */
+  --color-ink: #25283d; /* space-indigo */
+  --color-ink-deep: #23022e; /* dark-amethyst */
+  --color-muted: #ada8b6; /* lilac-ash */
+  --color-dust: #cecfc7; /* dust-grey */
+  --color-surface: #ffffff;
+  --color-surface-elevated: color-mix(in srgb, #cecfc7 30%, white);
+  --color-surface-floating: #ffffff;
+  --color-border: color-mix(in srgb, #ada8b6 45%, transparent);
+  --color-border-strong: color-mix(in srgb, #ada8b6 80%, transparent);
+
+  /* ---- typography ---- */
+  --font-heading: var(--font-nunito), ui-rounded, "SF Pro Rounded", sans-serif;
+  --font-body: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+
+  /* ---- layered, brand-tinted shadows (never flat black) ---- */
+  --shadow-card: 0 1px 2px color-mix(in srgb, var(--color-ink-deep) 8%, transparent),
+    0 8px 20px -6px color-mix(in srgb, var(--color-primary) 22%, transparent);
+  --shadow-card-hover: 0 2px 4px color-mix(in srgb, var(--color-ink-deep) 10%, transparent),
+    0 16px 32px -8px color-mix(in srgb, var(--color-primary) 28%, transparent);
+  --shadow-floating: 0 1px 2px color-mix(in srgb, var(--color-ink-deep) 10%, transparent),
+    0 12px 28px -6px color-mix(in srgb, var(--color-primary) 24%, transparent),
+    0 32px 56px -16px color-mix(in srgb, var(--color-ink-deep) 22%, transparent);
+
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+  --radius-xl: 1.75rem;
+
+  --animate-fade-up: fade-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-surface);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* subtle grain overlay for depth on hero / dark bands, per brand guardrails */
+.bg-grain {
+  position: relative;
+  isolation: isolate;
+}
+.bg-grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.05;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
