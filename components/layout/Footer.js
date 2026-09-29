@@ -15,6 +15,7 @@ import {
   YoutubeLogo,
 } from "@phosphor-icons/react";
 import { NAV_ITEMS, common } from "@/dictionaries/common";
+import { formatPhoneDisplay, waLink } from "@/lib/contact";
 
 function getLocale(pathname) {
   return pathname === "/en" || pathname.startsWith("/en/") ? "en" : "id";
@@ -29,9 +30,6 @@ export default function Footer() {
   const pathname = usePathname() || "/";
   const locale = getLocale(pathname);
   const t = common[locale];
-  const flatLinks = NAV_ITEMS.flatMap((item) =>
-    item.children ? item.children.map((c) => ({ ...c, parentKey: item.key })) : [item]
-  );
 
   return (
     <footer className="bg-grain bg-ink-deep text-white">
@@ -50,7 +48,7 @@ export default function Footer() {
             <p className="mt-4 max-w-sm text-sm leading-7 text-white/70">{t.footer.tagline}</p>
             <div className="mt-5 flex flex-wrap items-center gap-3">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/official_unpak/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Instagram BAK Universitas Pakuan"
@@ -59,7 +57,7 @@ export default function Footer() {
                 <InstagramLogo size={17} />
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/unpak/?locale=id_ID"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Facebook BAK Universitas Pakuan"
@@ -68,7 +66,7 @@ export default function Footer() {
                 <FacebookLogo size={17} />
               </a>
               <a
-                href="https://x.com"
+                href="https://x.com/official_unpak"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="X BAK Universitas Pakuan"
@@ -77,7 +75,7 @@ export default function Footer() {
                 <XLogo size={17} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/school/unpak/home/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="LinkedIn BAK Universitas Pakuan"
@@ -86,7 +84,7 @@ export default function Footer() {
                 <LinkedinLogo size={17} />
               </a>
               <a
-                href="https://youtube.com"
+                href="https://www.youtube.com/c/UNPAKTV"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="YouTube Universitas Pakuan"
@@ -102,7 +100,7 @@ export default function Footer() {
               {t.footer.menuHeading}
             </h2>
             <ul className="mt-4 flex flex-col gap-2.5 text-sm text-white/75">
-              {flatLinks.map((link) => (
+              {NAV_ITEMS.map((link) => (
                 <li key={link.key}>
                   {link.external ? (
                     <a
@@ -144,7 +142,19 @@ export default function Footer() {
               </li>
               <li className="flex gap-2.5">
                 <Phone size={18} className="mt-0.5 shrink-0 text-accent" aria-hidden="true" />
-                <span>{t.footer.phone}</span>
+                <span className="flex flex-col gap-1">
+                  {t.footer.phones.map((number) => (
+                    <a
+                      key={number}
+                      href={waLink(number)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-fit rounded transition-colors duration-200 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+                    >
+                      {formatPhoneDisplay(number)}
+                    </a>
+                  ))}
+                </span>
               </li>
             </ul>
             <p className="mt-4 text-sm font-bold text-white/40 font-heading">

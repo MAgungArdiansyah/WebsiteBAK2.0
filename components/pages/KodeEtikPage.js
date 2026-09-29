@@ -40,7 +40,7 @@ export default function KodeEtikPage({ locale }) {
           </div>
           <a
             href="#"
-            className="flex shrink-0 cursor-pointer items-center justify-center gap-2 rounded-full bg-primary px-5 py-2.5 font-heading text-sm font-bold text-white shadow-card transition-[background-color,transform] duration-200 hover:bg-primary-hover hover:-translate-y-0.5 active:translate-y-0 active:bg-primary-active focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
+            className="flex w-full shrink-0 cursor-pointer items-center justify-center gap-2 rounded-full bg-primary px-5 py-2.5 font-heading text-sm font-bold text-white shadow-card transition-[background-color,transform] duration-200 hover:bg-primary-hover hover:-translate-y-0.5 active:translate-y-0 active:bg-primary-active focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 sm:w-auto"
           >
             <DownloadSimple size={16} aria-hidden="true" />
             {t.downloadLabel}

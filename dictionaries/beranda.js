@@ -2,21 +2,21 @@ export const beranda = {
   id: {
     hero: {
       eyebrow: "Biro Akademik dan Kemahasiswaan · Universitas Pakuan",
-      headline: "Mengurus akademik dan kemahasiswaan Anda, dari awal kuliah hingga wisuda",
+      headline: "Pelayanan akademik dan kemahasiswaan, dari awal kuliah hingga wisuda",
       subcopy:
-        "BAK menjadi pusat layanan administrasi akademik dan kemahasiswaan Universitas Pakuan — mulai dari KRS, surat keterangan, beasiswa, hingga kalender akademik — dengan proses yang jelas dan mudah diikuti.",
+        "BAK menjadi pusat layanan administrasi akademik dan kemahasiswaan Universitas Pakuan mulai dari surat keterangan, beasiswa, hingga kalender akademik — dengan proses yang jelas dan mudah diikuti sesuai SOP yang berlaku.",
       ctaPrimary: { label: "Lihat Layanan", href: "/pelayanan/sop" },
-      ctaSecondary: { label: "Hubungi Kami", href: "/tentang-kami" },
+      ctaSecondary: { label: "Hubungi Kami", href: "/hubungi-kami" },
       photoAlt: "Kegiatan wisuda Universitas Pakuan",
       chips: [
         { label: "Senin – Kamis, Sabtu", sub: "08.00 – 15.00 WIB" },
         { label: "Jumat", sub: "08.00 – 14.00 WIB" },
       ],
       stats: [
-        { value: "20.000+", label: "Mahasiswa terlayani" },
-        { value: "15+", label: "Jenis layanan administrasi" },
-        { value: "6", label: "Bidang layanan utama" },
-        { value: "98%", label: "Permohonan selesai tepat waktu" },
+        { value: "20+", label: "Civitas terlayani perhari" },
+        { value: "7+", label: "Jenis layanan administrasi" },
+        { value: "4", label: "Bidang layanan utama" },
+        //{ value: "98%", label: "Permohonan selesai tepat waktu" },
       ],
     },
     sambutan: {
@@ -25,8 +25,8 @@ export const beranda = {
       title: "Kepala Biro Akademik dan Kemahasiswaan",
       photoAlt: "Dr. Atti Herawati, M.Pd. — Kepala Biro Akademik dan Kemahasiswaan Universitas Pakuan",
       quote:
-        "Kami hadir untuk memastikan setiap urusan akademik dan kemahasiswaan Anda diproses dengan cepat, jelas, dan tanpa hambatan berarti.",
-      body: "Selamat datang di laman resmi Biro Akademik dan Kemahasiswaan (BAK) Universitas Pakuan. Kami bertanggung jawab atas seluruh proses administrasi akademik dan kemahasiswaan, mulai dari perencanaan studi, penerbitan dokumen resmi, pengelolaan beasiswa, hingga penyusunan kalender akademik. Melalui laman ini, kami berupaya menghadirkan informasi dan layanan yang mudah diakses kapan saja, sehingga mahasiswa, dosen, dan tenaga kependidikan dapat memperoleh kejelasan prosedur tanpa harus berulang kali datang ke kantor kami. Kritik dan masukan Bapak/Ibu serta rekan mahasiswa akan selalu kami sambut sebagai bagian dari upaya perbaikan layanan yang berkelanjutan.",
+        "Kami hadir untuk memastikan setiap urusan akademik dan kemahasiswaan Anda diproses dan diselesaikan sesuai dengan SOP yang berlaku.",
+      body: "Selamat datang di laman resmi Biro Akademik dan Kemahasiswaan (BAK) Universitas Pakuan. Kami bertanggung jawab atas seluruh proses administrasi akademik dan kemahasiswaan, mulai dari penerimaan mahasiswa baru, penerbitan dokumen resmi, pengelolaan beasiswa, hingga penyusunan kalender akademik. Melalui laman ini, kami berupaya menghadirkan informasi dan layanan yang mudah diakses kapan saja, sehingga mahasiswa, dosen, dan tenaga kependidikan dapat memperoleh kejelasan prosedur tanpa harus berulang kali datang ke kantor kami. Kritik dan masukan Bapak/Ibu serta rekan mahasiswa akan selalu kami sambut sebagai bagian dari upaya perbaikan layanan yang berkelanjutan.",
     },
     berita: {
       eyebrow: "Informasi Terkini",
@@ -50,8 +50,8 @@ export const beranda = {
           a: "Permohonan dapat diajukan melalui loket layanan BAK atau formulir daring pada menu Pelayanan, dengan melampirkan KTM dan mengisi keperluan surat. Dokumen umumnya selesai dalam 1–3 hari kerja.",
         },
         {
-          q: "Di mana saya bisa mengunduh formulir cuti akademik dan formulir lainnya?",
-          a: "Seluruh formulir resmi tersedia pada menu Pelayanan → Formulir, dan dapat diunduh langsung tanpa perlu login.",
+          q: "Bagaimana cara membayar tagihan BKT, SPP, SKS?",
+          a: "Silahkan kakak cek website VA-BNI Unpak atau SIUP",
         },
         {
           q: "Kapan jadwal pengisian KRS untuk semester berikutnya?",
@@ -73,19 +73,19 @@ export const beranda = {
       eyebrow: "Bureau of Academic and Student Affairs · Universitas Pakuan",
       headline: "Handling your academic and student affairs, from enrollment to graduation",
       subcopy:
-        "BAK is Universitas Pakuan's administrative hub for academic and student affairs — course registration, official letters, scholarships, and the academic calendar — with clear, easy-to-follow processes.",
+        "BAK is Universitas Pakuan's administrative hub for academic and student affairs — course registration, official letters, scholarships, and the academic calendar — with clear, easy-to-follow processes in line with the SOPs in place.",
       ctaPrimary: { label: "View Services", href: "/en/pelayanan/sop" },
-      ctaSecondary: { label: "Contact Us", href: "/en/tentang-kami" },
+      ctaSecondary: { label: "Contact Us", href: "/en/hubungi-kami" },
       photoAlt: "Universitas Pakuan graduation ceremony",
       chips: [
         { label: "Mon – Thu, Sat", sub: "8 AM – 3 PM" },
         { label: "Friday", sub: "8 AM – 2 PM" },
       ],
       stats: [
-        { value: "20,000+", label: "Students served" },
-        { value: "15+", label: "Administrative services" },
-        { value: "6", label: "Core service areas" },
-        { value: "98%", label: "Requests completed on time" },
+        { value: "20+", label: "People served per day" },
+        { value: "7+", label: "Types of administrative services" },
+        { value: "4", label: "Core service areas" },
+        //{ value: "98%", label: "Requests completed on time" },
       ],
     },
     sambutan: {
@@ -94,8 +94,8 @@ export const beranda = {
       title: "Head of the Bureau of Academic and Student Affairs",
       photoAlt: "Dr. Atti Herawati, M.Pd. — Head of Universitas Pakuan's Bureau of Academic and Student Affairs",
       quote:
-        "We're here to make sure every academic and student affairs matter is handled quickly, clearly, and without unnecessary friction.",
-      body: "Welcome to the official page of the Bureau of Academic and Student Affairs (BAK) at Universitas Pakuan. We oversee the full range of academic and student administration — study planning, official document issuance, scholarship management, and the academic calendar. Through this page, we aim to make information and services accessible at any time, so students, lecturers, and staff can find clear procedures without needing repeated visits to our office. We welcome feedback from students and staff alike as part of our ongoing effort to improve our service.",
+        "We're here to make sure every academic and student affairs matter you bring to us is processed and resolved in line with the SOPs in place.",
+      body: "Welcome to the official page of the Bureau of Academic and Student Affairs (BAK) at Universitas Pakuan. We oversee the full range of academic and student administration — from new student admission, official document issuance, and scholarship management, to compiling the academic calendar. Through this page, we aim to make information and services accessible at any time, so students, lecturers, and staff can find clear procedures without needing repeated visits to our office. We always welcome feedback from students and staff alike as part of our ongoing effort to improve our service.",
     },
     berita: {
       eyebrow: "Latest Updates",
@@ -119,8 +119,8 @@ export const beranda = {
           a: "Requests can be submitted at the BAK service counter or via the online form under the Services menu, along with your student ID and the purpose of the letter. It's usually ready within 1–3 working days.",
         },
         {
-          q: "Where can I download the leave-of-absence form and other forms?",
-          a: "All official forms are available under Services → Forms and can be downloaded directly without logging in.",
+          q: "How do I pay my BKT, SPP, and SKS tuition fees?",
+          a: "Please check the Unpak VA-BNI website or the SIUP portal.",
         },
         {
           q: "When does course registration open for the next semester?",

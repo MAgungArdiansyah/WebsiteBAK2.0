@@ -1,12 +1,22 @@
+"use client";
+
+import { useState } from "react";
 import PageHeader from "@/components/layout/PageHeader";
 import SectionTabs from "@/components/layout/SectionTabs";
-import { DownloadSimple, FileDoc, FilePdf } from "@phosphor-icons/react/dist/ssr";
+import FileNoticeModal from "@/components/ui/FileNoticeModal";
+import { DownloadSimple, FileDoc, FilePdf } from "@phosphor-icons/react";
 import { formulir } from "@/dictionaries/formulir";
 import { common } from "@/dictionaries/common";
+
+function isFileAvailable(href) {
+  return Boolean(href) && href !== "#";
+}
 
 export default function FormulirPage({ locale }) {
   const t = formulir[locale];
   const nav = common[locale].nav;
+  const notice = common[locale].fileNotice;
+  const [noticeOpen, setNoticeOpen] = useState(false);
   const base = locale === "en" ? "/en" : "";
 
   const breadcrumb = [
@@ -18,6 +28,7 @@ export default function FormulirPage({ locale }) {
   const tabs = [
     { label: nav.sop, href: `${base}/pelayanan/sop` },
     { label: nav.formulir, href: `${base}/pelayanan/formulir` },
+    { label: nav.layananAdministratif, href: `${base}/pelayanan/layanan-administratif` },
   ];
 
   return (
@@ -49,13 +60,24 @@ export default function FormulirPage({ locale }) {
                           </p>
                         </div>
                       </div>
-                      <a
-                        href={file.href}
-                        className="flex shrink-0 cursor-pointer items-center justify-center gap-2 self-start rounded-full border border-border-strong px-5 py-2.5 font-heading text-sm font-bold text-ink transition-colors duration-200 hover:border-primary hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 sm:self-center"
-                      >
-                        <DownloadSimple size={16} aria-hidden="true" />
-                        {t.downloadLabel}
-                      </a>
+                      {isFileAvailable(file.href) ? (
+                        <a
+                          href={file.href}
+                          className="flex shrink-0 cursor-pointer items-center justify-center gap-2 w-full sm:w-auto rounded-full border border-border-strong px-5 py-2.5 font-heading text-sm font-bold text-ink transition-colors duration-200 hover:border-primary hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 sm:self-center"
+                        >
+                          <DownloadSimple size={16} aria-hidden="true" />
+                          {t.downloadLabel}
+                        </a>
+                      ) : (
+                        <button
+                          type="button"
+                          onClick={() => setNoticeOpen(true)}
+                          className="flex shrink-0 cursor-pointer items-center justify-center gap-2 w-full sm:w-auto rounded-full border border-border-strong px-5 py-2.5 font-heading text-sm font-bold text-ink transition-colors duration-200 hover:border-primary hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 sm:self-center"
+                        >
+                          <DownloadSimple size={16} aria-hidden="true" />
+                          {t.downloadLabel}
+                        </button>
+                      )}
                     </div>
                   );
                 })}
@@ -64,6 +86,14 @@ export default function FormulirPage({ locale }) {
           ))}
         </div>
       </section>
+
+      <FileNoticeModal
+        open={noticeOpen}
+        onClose={() => setNoticeOpen(false)}
+        title={notice.title}
+        message={notice.message}
+        closeLabel={notice.closeLabel}
+      />
     </>
   );
 }

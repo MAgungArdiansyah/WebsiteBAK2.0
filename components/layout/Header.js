@@ -201,7 +201,10 @@ export default function Header() {
       </div>
 
       {mobileOpen && (
-        <div id="mobile-menu" className="border-t border-border bg-surface lg:hidden">
+        <div
+          id="mobile-menu"
+          className="absolute inset-x-0 top-full max-h-[calc(100dvh_-_4.5rem)] overflow-y-auto overscroll-contain border-t border-border bg-surface shadow-floating lg:hidden"
+        >
           <div className="mx-auto max-w-6xl px-4 py-3 sm:px-6">
             <nav className="flex flex-col gap-1">
               {NAV_ITEMS.map((item) => (

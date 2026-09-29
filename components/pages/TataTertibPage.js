@@ -78,7 +78,7 @@ export default function TataTertibPage({ locale }) {
               </div>
               <a
                 href="#"
-                className="flex shrink-0 cursor-pointer items-center justify-center gap-1.5 self-start rounded-full border border-border-strong px-5 py-2.5 font-heading text-sm font-bold text-ink transition-colors duration-200 hover:border-primary hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 sm:self-center"
+                className="flex shrink-0 cursor-pointer items-center justify-center gap-1.5 w-full sm:w-auto rounded-full border border-border-strong px-5 py-2.5 font-heading text-sm font-bold text-ink transition-colors duration-200 hover:border-primary hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 sm:self-center"
               >
                 {t.viewLabel}
                 <ArrowRight size={14} aria-hidden="true" />

@@ -1,7 +1,36 @@
 {
   "permissions": {
     "allow": [
-      "Bash(node _tmp-filter-check.mjs)"
+      "Bash(node _tmp-filter-check.mjs)",
+      "Bash(node screenshot.mjs http://localhost:3000/hubungi-kami nav-1280 1280 700)",
+      "Bash(node screenshot.mjs http://localhost:3000/hubungi-kami nav-mobile 390 800)",
+      "Bash(node screenshot.mjs http://localhost:3000/en/hubungi-kami hubungi-kami-en)",
+      "Bash(node screenshot.mjs http://localhost:3000/hubungi-kami hubungi-kami-light)",
+      "Bash(node screenshot.mjs http://localhost:3000/hubungi-kami hubungi-kami-contrast)",
+      "Bash(node screenshot.mjs http://localhost:3000/hubungi-kami hubungi-kami-dark-rows)",
+      "Bash(node screenshot.mjs http://localhost:3000/hubungi-kami hubungi-kami-uniform)",
+      "Bash(node screenshot.mjs http://localhost:3000/hubungi-kami hubungi-kami-dark-cards)",
+      "Bash(node -e \"const m = require\\('@phosphor-icons/react'\\); console.log\\(['FileX','FileDashed','FileMagnifyingGlass','WarningCircle'].map\\(n => n + ': ' + \\(n in m\\)\\).join\\('\\\\n'\\)\\)\")",
+      "Bash(node --input-type=module -e ' *)",
+      "Bash(node screenshot.mjs http://localhost:3000/pelayanan/sop sop-page)",
+      "Bash(node --experimental-vm-modules -e ' *)",
+      "Bash(NODE_PATH=\"c:/Users/BAAK_PC02/Documents/Kerja/Code/claudewebtest/node_modules\" node test-notice.mjs)",
+      "Bash(node test-notice.mjs)",
+      "Bash(node screenshot.mjs http://localhost:3000/pelayanan/sop sop-outline-btn)",
+      "Bash(node screenshot.mjs http://localhost:3000/pelayanan/sop sop-solid-restored)",
+      "Bash(node screenshot.mjs http://localhost:3000/pelayanan/layanan-administratif layanan-administratif-id)",
+      "Bash(node screenshot.mjs http://localhost:3000/en/pelayanan/layanan-administratif layanan-administratif-en)",
+      "Bash(node screenshot.mjs http://localhost:3000/pelayanan/sop sop-new-content)",
+      "Bash(node screenshot.mjs http://localhost:3000 footer-menu-short)",
+      "Bash(node screenshot.mjs http://localhost:3000/en beranda-en-sync)",
+      "Bash(node screenshot.mjs http://localhost:3000/pelayanan/sop sop-search-default)",
+      "Bash(node screenshot.mjs http://localhost:3000/pelayanan/sop sop-real-links)",
+      "Bash(node screenshot.mjs http://localhost:3000/kebijakan/kebijakan-warek kebijakan-warek-id)",
+      "Bash(node screenshot.mjs http://localhost:3000/pelayanan/sop mobile-sop-wide 390 900)",
+      "Bash(node screenshot.mjs http://localhost:3000/kebijakan/kebijakan-warek mobile-warek-wide 390 900)",
+      "Bash(node screenshot.mjs http://localhost:3000/pelayanan/layanan-administratif mobile-la-wide 390 900)",
+      "Bash(node screenshot.mjs http://localhost:3000/pelayanan/sop desktop-sop-check 1280 700)",
+      "Bash(node test-mobile-nav.mjs)"
     ]
   }
 }
