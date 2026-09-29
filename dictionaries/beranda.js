@@ -7,7 +7,7 @@ export const beranda = {
         "BAK menjadi pusat layanan administrasi akademik dan kemahasiswaan Universitas Pakuan mulai dari surat keterangan, beasiswa, hingga kalender akademik — dengan proses yang jelas dan mudah diikuti sesuai SOP yang berlaku.",
       ctaPrimary: { label: "Lihat Layanan", href: "/pelayanan/sop" },
       ctaSecondary: { label: "Hubungi Kami", href: "/hubungi-kami" },
-      photoAlt: "Kegiatan wisuda Universitas Pakuan",
+      photoAlt: "Mahasiswa Universitas Pakuan di depan Graha Pakuan Siliwangi",
       chips: [
         { label: "Senin – Kamis, Sabtu", sub: "08.00 – 15.00 WIB" },
         { label: "Jumat", sub: "08.00 – 14.00 WIB" },
@@ -76,7 +76,7 @@ export const beranda = {
         "BAK is Universitas Pakuan's administrative hub for academic and student affairs — course registration, official letters, scholarships, and the academic calendar — with clear, easy-to-follow processes in line with the SOPs in place.",
       ctaPrimary: { label: "View Services", href: "/en/pelayanan/sop" },
       ctaSecondary: { label: "Contact Us", href: "/en/hubungi-kami" },
-      photoAlt: "Universitas Pakuan graduation ceremony",
+      photoAlt: "Universitas Pakuan students in front of Graha Pakuan Siliwangi",
       chips: [
         { label: "Mon – Thu, Sat", sub: "8 AM – 3 PM" },
         { label: "Friday", sub: "8 AM – 2 PM" },

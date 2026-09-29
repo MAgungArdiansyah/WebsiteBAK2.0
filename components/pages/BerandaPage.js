@@ -60,11 +60,11 @@ export default function BerandaPage({ locale }) {
           <div className="relative mx-auto w-full max-w-md lg:max-w-none">
             <div className="relative aspect-[4/5] overflow-hidden rounded-xl shadow-floating">
               <Image
-                src={asset("Wisuda 1.JPG")}
+                src={asset("Hero section.jpg")}
                 alt={t.hero.photoAlt}
                 fill
                 sizes="(min-width: 1024px) 40vw, 90vw"
-                className="object-cover"
+                className="object-cover object-[59%_50%]"
                 priority
               />
               <div className="absolute inset-0 bg-gradient-to-t from-ink-deep/70 via-ink-deep/0 to-ink-deep/0 mix-blend-multiply" aria-hidden="true" />
@@ -93,7 +93,7 @@ export default function BerandaPage({ locale }) {
           <div className="relative mx-auto w-full max-w-xs lg:max-w-none">
             <div className="relative aspect-[3/4] overflow-hidden rounded-xl shadow-card">
               <Image
-                src={asset("Kepala Biro Akademik.jpg")}
+                src={asset("Kepala BAK - Dr Atti Herawati.png")}
                 alt={t.sambutan.photoAlt}
                 fill
                 sizes="(min-width: 1024px) 30vw, 70vw"

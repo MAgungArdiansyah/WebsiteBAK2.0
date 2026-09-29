@@ -30,7 +30,16 @@
       "Bash(node screenshot.mjs http://localhost:3000/kebijakan/kebijakan-warek mobile-warek-wide 390 900)",
       "Bash(node screenshot.mjs http://localhost:3000/pelayanan/layanan-administratif mobile-la-wide 390 900)",
       "Bash(node screenshot.mjs http://localhost:3000/pelayanan/sop desktop-sop-check 1280 700)",
-      "Bash(node test-mobile-nav.mjs)"
+      "Bash(node test-mobile-nav.mjs)",
+      "Bash(node -e ' *)",
+      "Bash(rm -f \"temporary screenshots/team-\"*.png)",
+      "Bash(node check-photos.mjs)",
+      "Bash(node screenshot.mjs http://localhost:3000 hero-desktop 1440 900)",
+      "Bash(node screenshot.mjs http://localhost:3000 hero-mobile 390 900)",
+      "Bash(cd \"c:\\\\Users\\\\BAAK_PC02\\\\Documents\\\\Kerja\\\\Code\\\\claudewebtest\" && rm -f \"temporary screenshots/hero-frame-\"*.png)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\BAAK_PC02\\Documents\\Kerja\\Code\\claudewebtest\\temporary screenshots"
     ]
   }
 }

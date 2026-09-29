@@ -162,10 +162,10 @@
     "semantic_hash": ""
   },
   "components/layout/Header.js": {
-    "mtime": 1790580975.861011,
-    "seen": 1790647343.2597332,
-    "ast_hash": "61f9251d772e722490acdb246f697410",
-    "semantic_hash": "61f9251d772e722490acdb246f697410"
+    "mtime": 1790665220.0468645,
+    "seen": 1790665422.6583576,
+    "ast_hash": "606f0035481919669e00268347c2161a",
+    "semantic_hash": ""
   },
   "components/layout/PageHeader.js": {
     "mtime": 1790570498.182581,
@@ -342,9 +342,9 @@
     "semantic_hash": ""
   },
   ".claude/settings.local.json": {
-    "mtime": 1790664919.4202356,
-    "seen": 1790664930.8396347,
-    "ast_hash": "692fe38fc8d9322f4a0ac052b22d85e3",
+    "mtime": 1790665066.7119622,
+    "seen": 1790665422.6583576,
+    "ast_hash": "c8cf9f842e7609511c5f105353b11f97",
     "semantic_hash": ""
   },
   "app/en/hubungi-kami/page.js": {

@@ -12,17 +12,24 @@ const SIZES = {
   sm: { box: "h-16 w-16 sm:h-20 sm:w-20", icon: 26, card: "w-24 sm:w-36" },
 };
 
-function PersonCard({ photo, name, title, size = "md" }) {
+function PersonCard({ photo, photoStyle, name, title, size = "md" }) {
   const { box, icon, card } = SIZES[size];
   return (
     <div className={`flex ${card} flex-col items-center text-center`}>
       <div
         className={`relative flex ${box} shrink-0 items-center justify-center overflow-hidden rounded-full border-4 border-surface shadow-card ${
-          photo ? "" : "bg-primary/10"
+          photo ? "bg-white" : "bg-primary/10"
         }`}
       >
         {photo ? (
-          <Image src={asset(photo)} alt={name || title} fill sizes="160px" className="object-cover" />
+          <Image
+            src={asset(photo)}
+            alt={name || title}
+            fill
+            sizes="160px"
+            className="object-cover object-[50%_10%]"
+            style={photoStyle}
+          />
         ) : (
           <User size={icon} weight="fill" className="text-primary/50" aria-hidden="true" />
         )}
@@ -75,7 +82,7 @@ export default function TentangKamiPage({ locale }) {
           <div className="relative mx-auto w-full max-w-xs lg:max-w-none">
             <div className="relative aspect-[3/4] overflow-hidden rounded-xl shadow-card">
               <Image
-                src={asset("Kepala Biro Akademik.jpg")}
+                src={asset("Kepala BAK - Dr Atti Herawati.png")}
                 alt={sambutan.photoAlt}
                 fill
                 sizes="(min-width: 1024px) 30vw, 70vw"
@@ -143,6 +150,7 @@ export default function TentangKamiPage({ locale }) {
                     {soloStaff && (
                       <PersonCard
                         photo={group.staff[0].photo}
+                        photoStyle={group.staff[0].photoStyle}
                         name={group.staff[0].name}
                         title={group.staff[0].title}
                         size="md"
@@ -157,6 +165,7 @@ export default function TentangKamiPage({ locale }) {
                           <PersonCard
                             key={person.title + (person.name || "")}
                             photo={person.photo}
+                            photoStyle={person.photoStyle}
                             name={person.name}
                             title={person.title}
                             size="sm"

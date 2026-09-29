@@ -22,23 +22,23 @@ export const tentangKami = {
       heading: "Pimpinan BAK",
       subtitle: "Jajaran pimpinan yang bertanggung jawab atas penyelenggaraan layanan akademik dan kemahasiswaan.",
       chief: {
-        photo: "Kepala Biro Akademik.jpg",
+        photo: "Kepala BAK - Dr Atti Herawati.png",
         name: "Dr. Atti Herawati, M.Pd.",
         title: "Kepala Biro Akademik dan Kemahasiswaan",
       },
       heads: [
         {
-          photo: "Kepala Bagian Akademik.jpg",
+          photo: "Kepala Bagian Akademik - Boldson Herdianto Situmorang.png",
           name: "Boldson Herdianto Situmorang, M.M.S.I",
           title: "Kepala Bagian Akademik",
         },
         {
-          photo: "Kepala Bagian Kemahasiswaan.jpg",
+          photo: "Kepala Bagian Alumni dan Kemahasiswaan.png",
           name: "Dr. Herman, S.E., M.M.",
           title: "Kepala Bagian Alumni dan Kemahasiswaan",
         },
         {
-          photo: "Kepala Humas dan Promosi.jpg",
+          photo: "Kepala Humas dan Promosi.png",
           name: "Aditya Prima Yudha, S.Pi., M.M.",
           title: "Kepala Bagian Humas dan Promosi",
         },
@@ -53,30 +53,30 @@ export const tentangKami = {
         {
           name: "Bagian Akademik",
           head: {
-            photo: "Kepala Bagian Akademik.jpg",
+            photo: "Kepala Bagian Akademik - Boldson Herdianto Situmorang.png",
             name: "Boldson Herdianto Situmorang, M.M.S.I",
             title: "Kepala Bagian Akademik",
           },
           staff: [
-            { photo: null, name: "R.D. Putri Anugrah K, S.I.Kom.", title: "Staf Administrasi Akademik" },
-            { photo: null, name: "Kartiwa", title: "Staf Administrasi Akademik" },
-            { photo: null, name: "Novia Selviani", title: "Staf Administrasi Akademik" },
-            { photo: null, name: "Nabila Choirunnisa, S.Ds.", title: "Staf Keuangan" },
+            { photo: "Staf Administrasi Akademik - R D Putri Anugrah.png", name: "R.D. Putri Anugrah K, S.I.Kom.", title: "Staf Administrasi Akademik" },
+            { photo: "Staf Administrasi Akademik - Kartiwa.png", name: "Kartiwa", title: "Staf Administrasi Akademik" },
+            { photo: "Staf Administrasi Akademik - Novia Selviani.png", name: "Novia Selviani", title: "Staf Administrasi Akademik" },
+            { photo: "Staf Keuangan - Nabila Choirunnisa.png", name: "Nabila Choirunnisa, S.Ds.", title: "Staf Keuangan" },
             { photo: null, name: "Haura Azzahra Kusnandar, S.M", title: "Staf Keuangan" },
-            { photo: null, name: "Muhammad Agung Ardiansyah, S.Kom", title: "Staf IT" },
+            { photo: "Staf IT - M Agung Ardiansyah.png", photoStyle: { objectPosition: "50% 100%", transform: "scale(1.35)", transformOrigin: "50% 36%" }, name: "Muhammad Agung Ardiansyah, S.Kom", title: "Staf IT" },
             { photo: null, name: "Kholis", title: "Staf Pelaksana" },
           ],
         },
         {
           name: "Bagian Alumni dan Kemahasiswaan",
           head: {
-            photo: "Kepala Bagian Kemahasiswaan.jpg",
+            photo: "Kepala Bagian Alumni dan Kemahasiswaan.png",
             name: "Dr. Herman, S.E., M.M.",
             title: "Kepala Bagian Alumni dan Kemahasiswaan",
           },
           staff: [
             {
-              photo: "Staf - Kepala Bagian Kemahasiswaan.jpg",
+              photo: "Staf Kemahasiswaan - Karina Apriyani.png",
               name: "Karina Apriyani, S.Psi., M.M.",
               title: "Staf Bagian Alumni dan Kemahasiswaan",
             },
@@ -85,15 +85,15 @@ export const tentangKami = {
         {
           name: "Bagian Humas dan Promosi",
           head: {
-            photo: "Kepala Humas dan Promosi.jpg",
+            photo: "Kepala Humas dan Promosi.png",
             name: "Aditya Prima Yudha, S.Pi., M.M.",
             title: "Kepala Bagian Humas dan Promosi",
           },
           staff: [
-            { photo: null, name: "Kendra Permana, S.E", title: "Staf Humas dan Promosi" },
-            { photo: null, name: "Oly Nurmansyah, S.I.Kom", title: "Staf Humas dan Promosi" },
-            { photo: null, name: "Rini Anggraeni, S.M", title: "Staf Humas dan Promosi" },
-            { photo: null, name: "Julian Ferdika, S.I.Kom", title: "Staf Humas dan Promosi" },
+            { photo: "Staf Humas dan Promosi - Kendra Permana.png", name: "Kendra Permana, S.E", title: "Staf Humas dan Promosi" },
+            { photo: "Staf Humas dan Promosi - Oly Nurmansyah.png", name: "Oly Nurmansyah, S.I.Kom", title: "Staf Humas dan Promosi" },
+            { photo: "Staf Humas dan Promosi - Rini Anggraeni.png", name: "Rini Anggraeni, S.M", title: "Staf Humas dan Promosi" },
+            { photo: "Staf Humas dan Promosi - Julian Ferdika.png", name: "Julian Ferdika, S.I.Kom", title: "Staf Humas dan Promosi" },
           ],
         },
       ],
@@ -121,23 +121,23 @@ export const tentangKami = {
       heading: "BAK Leadership",
       subtitle: "The leadership responsible for running academic and student affairs services.",
       chief: {
-        photo: "Kepala Biro Akademik.jpg",
+        photo: "Kepala BAK - Dr Atti Herawati.png",
         name: "Dr. Atti Herawati, M.Pd.",
         title: "Head of the Bureau of Academic and Student Affairs",
       },
       heads: [
         {
-          photo: "Kepala Bagian Akademik.jpg",
+          photo: "Kepala Bagian Akademik - Boldson Herdianto Situmorang.png",
           name: "Boldson Herdianto Situmorang, M.M.S.I",
           title: "Head of the Academic Division",
         },
         {
-          photo: "Kepala Bagian Kemahasiswaan.jpg",
+          photo: "Kepala Bagian Alumni dan Kemahasiswaan.png",
           name: "Dr. Herman, S.E., M.M.",
           title: "Head of the Alumni and Student Affairs Division",
         },
         {
-          photo: "Kepala Humas dan Promosi.jpg",
+          photo: "Kepala Humas dan Promosi.png",
           name: "Aditya Prima Yudha, S.Pi., M.M.",
           title: "Head of the Public Relations and Promotion Division",
         },
@@ -152,30 +152,30 @@ export const tentangKami = {
         {
           name: "Academic Division",
           head: {
-            photo: "Kepala Bagian Akademik.jpg",
+            photo: "Kepala Bagian Akademik - Boldson Herdianto Situmorang.png",
             name: "Boldson Herdianto Situmorang, M.M.S.I",
             title: "Head of the Academic Division",
           },
           staff: [
-            { photo: null, name: "R.D. Putri Anugrah K, S.I.Kom.", title: "Academic Administration Staff" },
-            { photo: null, name: "Kartiwa", title: "Academic Administration Staff" },
-            { photo: null, name: "Novia Selviani", title: "Academic Administration Staff" },
-            { photo: null, name: "Nabila Choirunnisa, S.Ds.", title: "Finance Staff" },
+            { photo: "Staf Administrasi Akademik - R D Putri Anugrah.png", name: "R.D. Putri Anugrah K, S.I.Kom.", title: "Academic Administration Staff" },
+            { photo: "Staf Administrasi Akademik - Kartiwa.png", name: "Kartiwa", title: "Academic Administration Staff" },
+            { photo: "Staf Administrasi Akademik - Novia Selviani.png", name: "Novia Selviani", title: "Academic Administration Staff" },
+            { photo: "Staf Keuangan - Nabila Choirunnisa.png", name: "Nabila Choirunnisa, S.Ds.", title: "Finance Staff" },
             { photo: null, name: "Haura Azzahra Kusnandar, S.M", title: "Finance Staff" },
-            { photo: null, name: "Muhammad Agung Ardiansyah, S.Kom", title: "IT Staff" },
+            { photo: "Staf IT - M Agung Ardiansyah.png", photoStyle: { objectPosition: "50% 100%", transform: "scale(1.35)", transformOrigin: "50% 36%" }, name: "Muhammad Agung Ardiansyah, S.Kom", title: "IT Staff" },
             { photo: null, name: "Kholis", title: "Operations Staff" },
           ],
         },
         {
           name: "Alumni and Student Affairs Division",
           head: {
-            photo: "Kepala Bagian Kemahasiswaan.jpg",
+            photo: "Kepala Bagian Alumni dan Kemahasiswaan.png",
             name: "Dr. Herman, S.E., M.M.",
             title: "Head of the Alumni and Student Affairs Division",
           },
           staff: [
             {
-              photo: "Staf - Kepala Bagian Kemahasiswaan.jpg",
+              photo: "Staf Kemahasiswaan - Karina Apriyani.png",
               name: "Karina Apriyani, S.Psi., M.M.",
               title: "Alumni and Student Affairs Division Staff",
             },
@@ -184,15 +184,15 @@ export const tentangKami = {
         {
           name: "Public Relations and Promotion Division",
           head: {
-            photo: "Kepala Humas dan Promosi.jpg",
+            photo: "Kepala Humas dan Promosi.png",
             name: "Aditya Prima Yudha, S.Pi., M.M.",
             title: "Head of the Public Relations and Promotion Division",
           },
           staff: [
-            { photo: null, name: "Kendra Permana, S.E", title: "Public Relations and Promotion Staff" },
-            { photo: null, name: "Oly Nurmansyah, S.I.Kom", title: "Public Relations and Promotion Staff" },
-            { photo: null, name: "Rini Anggraeni, S.M", title: "Public Relations and Promotion Staff" },
-            { photo: null, name: "Julian Ferdika, S.I.Kom", title: "Public Relations and Promotion Staff" },
+            { photo: "Staf Humas dan Promosi - Kendra Permana.png", name: "Kendra Permana, S.E", title: "Public Relations and Promotion Staff" },
+            { photo: "Staf Humas dan Promosi - Oly Nurmansyah.png", name: "Oly Nurmansyah, S.I.Kom", title: "Public Relations and Promotion Staff" },
+            { photo: "Staf Humas dan Promosi - Rini Anggraeni.png", name: "Rini Anggraeni, S.M", title: "Public Relations and Promotion Staff" },
+            { photo: "Staf Humas dan Promosi - Julian Ferdika.png", name: "Julian Ferdika, S.I.Kom", title: "Public Relations and Promotion Staff" },
           ],
         },
       ],

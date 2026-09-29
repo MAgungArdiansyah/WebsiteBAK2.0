@@ -180,10 +180,10 @@
     "semantic_hash": "127e04832cb82dc76770484b68ea9d74"
   },
   "components/pages/BerandaPage.js": {
-    "mtime": 1790575903.8070588,
-    "seen": 1790647343.2597332,
-    "ast_hash": "cdf2b4984ed92563d9afcfcba9329162",
-    "semantic_hash": "cdf2b4984ed92563d9afcfcba9329162"
+    "mtime": 1790676002.7184248,
+    "seen": 1790676421.4588733,
+    "ast_hash": "24201cf08215081c25d83dd35af2220d",
+    "semantic_hash": ""
   },
   "components/pages/BeritaDetailPage.js": {
     "mtime": 1790574272.750917,
@@ -246,10 +246,10 @@
     "semantic_hash": ""
   },
   "components/pages/TentangKamiPage.js": {
-    "mtime": 1790579708.0294073,
-    "seen": 1790647343.2597332,
-    "ast_hash": "3478f2adaed3d6c646b774c02c2e68dd",
-    "semantic_hash": "3478f2adaed3d6c646b774c02c2e68dd"
+    "mtime": 1790676326.82179,
+    "seen": 1790676421.4588733,
+    "ast_hash": "5a0c836422b46fe1790cb18bb8be5d6e",
+    "semantic_hash": ""
   },
   "components/ui/Accordion.js": {
     "mtime": 1790569169.8450403,
@@ -324,10 +324,10 @@
     "semantic_hash": "0045b760d9fad2b48120041f81a85403"
   },
   "dictionaries/tentang-kami.js": {
-    "mtime": 1790578910.9323716,
-    "seen": 1790647343.2597332,
-    "ast_hash": "19cca74ba889750691626a6f77e5ca44",
-    "semantic_hash": "19cca74ba889750691626a6f77e5ca44"
+    "mtime": 1790676335.8686051,
+    "seen": 1790676421.4588733,
+    "ast_hash": "e9e94dbd23bbcecd640e523a150a04c7",
+    "semantic_hash": ""
   },
   "app/icon.png": {
     "mtime": 1790580466.0119836,
@@ -342,9 +342,9 @@
     "semantic_hash": ""
   },
   ".claude/settings.local.json": {
-    "mtime": 1790665066.7119622,
-    "seen": 1790665422.6583576,
-    "ast_hash": "c8cf9f842e7609511c5f105353b11f97",
+    "mtime": 1790676350.545426,
+    "seen": 1790676421.4588733,
+    "ast_hash": "5d0530151730f6baf57a1d0d52a494e5",
     "semantic_hash": ""
   },
   "app/en/hubungi-kami/page.js": {
@@ -581,30 +581,6 @@
     "ast_hash": "a02c00aa54dd8c44acc15426aa359de1",
     "semantic_hash": ""
   },
-  "public/brand_assets/Kepala Bagian Akademik.jpg": {
-    "mtime": 1790567930.9548376,
-    "seen": 1790650162.2945337,
-    "ast_hash": "ab7ecf94cd322980f8369cff7deb8dc7",
-    "semantic_hash": ""
-  },
-  "public/brand_assets/Kepala Bagian Kemahasiswaan.jpg": {
-    "mtime": 1790567930.8517263,
-    "seen": 1790650162.2945337,
-    "ast_hash": "8b592a09aff048fc96ce4d0eef9d1c39",
-    "semantic_hash": ""
-  },
-  "public/brand_assets/Kepala Biro Akademik.jpg": {
-    "mtime": 1790567930.9086478,
-    "seen": 1790650162.2945337,
-    "ast_hash": "cd5befef2247d39d1a4c12058fba3b4d",
-    "semantic_hash": ""
-  },
-  "public/brand_assets/Kepala Humas dan Promosi.jpg": {
-    "mtime": 1790567930.922707,
-    "seen": 1790650162.2945337,
-    "ast_hash": "ddd335c074efc81c75babd069271c0c6",
-    "semantic_hash": ""
-  },
   "public/brand_assets/Riset.JPG": {
     "mtime": 1790567930.9041317,
     "seen": 1790650162.2945337,
@@ -621,12 +597,6 @@
     "mtime": 1790567930.810134,
     "seen": 1790650162.2945337,
     "ast_hash": "0942a610ffe3c5767cca7627e9b0be38",
-    "semantic_hash": ""
-  },
-  "public/brand_assets/Staf - Kepala Bagian Kemahasiswaan.jpg": {
-    "mtime": 1790567930.8301811,
-    "seen": 1790650162.2945337,
-    "ast_hash": "36771b6682477bde4477632f15eced4f",
     "semantic_hash": ""
   },
   "public/brand_assets/Unpak.png": {
@@ -975,6 +945,96 @@
     "mtime": 1790664853.6804478,
     "seen": 1790664930.8396347,
     "ast_hash": "fb436a3cf64217b0782760359aed1441",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Hero section.jpg": {
+    "mtime": 1790675235.3134823,
+    "seen": 1790676421.4588733,
+    "ast_hash": "4ab0d9a3a1835e761b183c6fd7dcb45a",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Kepala BAK - Dr Atti Herawati.png": {
+    "mtime": 1790675512.6057174,
+    "seen": 1790676421.4588733,
+    "ast_hash": "ebb002633844f7c1eb5ba3b7ac0d7152",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Kepala Bagian Akademik - Boldson Herdianto Situmorang.png": {
+    "mtime": 1790673624.102944,
+    "seen": 1790676421.4588733,
+    "ast_hash": "6e17dc9d97ca054a19d3a32a51243c7b",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Kepala Bagian Alumni dan Kemahasiswaan.png": {
+    "mtime": 1790674319.0176816,
+    "seen": 1790676421.4588733,
+    "ast_hash": "d447135a11dc80a9f647fd303313a268",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Kepala Humas dan Promosi.png": {
+    "mtime": 1790675786.2635238,
+    "seen": 1790676421.4588733,
+    "ast_hash": "5360e1a6ba8e5ec3f067a6a0f51a5c30",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Staf Administrasi Akademik - Kartiwa.png": {
+    "mtime": 1777946296.3193889,
+    "seen": 1790676421.4588733,
+    "ast_hash": "092d9eaf4858f0223b8605b93233afcd",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Staf Administrasi Akademik - Novia Selviani.png": {
+    "mtime": 1790675453.9795287,
+    "seen": 1790676421.4588733,
+    "ast_hash": "cceaa3af2c6e063aef6de56bf22f839c",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Staf Administrasi Akademik - R D Putri Anugrah.png": {
+    "mtime": 1790676186.0785966,
+    "seen": 1790676421.4588733,
+    "ast_hash": "181a0117e36fd9cad87358869293e5d1",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Staf Humas dan Promosi - Julian Ferdika.png": {
+    "mtime": 1745463530.761569,
+    "seen": 1790676421.4588733,
+    "ast_hash": "40d7f5465522e3d6afad29ba46dc69c1",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Staf Humas dan Promosi - Kendra Permana.png": {
+    "mtime": 1745461701.208623,
+    "seen": 1790676421.4588733,
+    "ast_hash": "302a9cb3d06c7bfc7d6c51bc9a4863d9",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Staf Humas dan Promosi - Oly Nurmansyah.png": {
+    "mtime": 1745463639.4959812,
+    "seen": 1790676421.4588733,
+    "ast_hash": "ad0abf65344f724bc21dad4a1c934b94",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Staf Humas dan Promosi - Rini Anggraeni.png": {
+    "mtime": 1790675154.5842896,
+    "seen": 1790676421.4588733,
+    "ast_hash": "1f7543bb38dd40ffe69fb8bd78217b0f",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Staf IT - M Agung Ardiansyah.png": {
+    "mtime": 1790675356.1992083,
+    "seen": 1790676421.4588733,
+    "ast_hash": "54e0d7ea9ff2862211c6acaad5612872",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Staf Kemahasiswaan - Karina Apriyani.png": {
+    "mtime": 1745461612.7969441,
+    "seen": 1790676421.4588733,
+    "ast_hash": "d09bd35f0610e1d22b6cf2c455e6253c",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Staf Keuangan - Nabila Choirunnisa.png": {
+    "mtime": 1790675686.0564206,
+    "seen": 1790676421.4588733,
+    "ast_hash": "7c3cc3d1a3d014f23dd8c1fa883688b3",
     "semantic_hash": ""
   }
 }
