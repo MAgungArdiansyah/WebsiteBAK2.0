@@ -1,13 +1,23 @@
+"use client";
+
+import { useState } from "react";
 import PageHeader from "@/components/layout/PageHeader";
 import SectionTabs from "@/components/layout/SectionTabs";
 import Accordion from "@/components/ui/Accordion";
-import { DownloadSimple, FileText } from "@phosphor-icons/react/dist/ssr";
+import FileNoticeModal from "@/components/ui/FileNoticeModal";
+import { DownloadSimple, FileText } from "@phosphor-icons/react";
 import { kodeEtik } from "@/dictionaries/kode-etik";
 import { NAV_ITEMS, common } from "@/dictionaries/common";
+
+function isFileAvailable(href) {
+  return Boolean(href) && href !== "#";
+}
 
 export default function KodeEtikPage({ locale }) {
   const t = kodeEtik[locale];
   const nav = common[locale].nav;
+  const notice = common[locale].fileNotice;
+  const [noticeOpen, setNoticeOpen] = useState(false);
   const base = locale === "en" ? "/en" : "";
 
   const breadcrumb = [
@@ -38,13 +48,26 @@ export default function KodeEtikPage({ locale }) {
               <p className="mt-1 text-xs text-ink/40">{t.document.updated}</p>
             </div>
           </div>
-          <a
-            href="#"
-            className="flex w-full shrink-0 cursor-pointer items-center justify-center gap-2 rounded-full bg-primary px-5 py-2.5 font-heading text-sm font-bold text-white shadow-card transition-[background-color,transform] duration-200 hover:bg-primary-hover hover:-translate-y-0.5 active:translate-y-0 active:bg-primary-active focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 sm:w-auto"
-          >
-            <DownloadSimple size={16} aria-hidden="true" />
-            {t.downloadLabel}
-          </a>
+          {isFileAvailable(t.document.href) ? (
+            <a
+              href={t.document.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex w-full shrink-0 cursor-pointer items-center justify-center gap-2 rounded-full bg-primary px-5 py-2.5 font-heading text-sm font-bold text-white shadow-card transition-[background-color,transform] duration-200 hover:bg-primary-hover hover:-translate-y-0.5 active:translate-y-0 active:bg-primary-active focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 sm:w-auto"
+            >
+              <DownloadSimple size={16} aria-hidden="true" />
+              {t.downloadLabel}
+            </a>
+          ) : (
+            <button
+              type="button"
+              onClick={() => setNoticeOpen(true)}
+              className="flex w-full shrink-0 cursor-pointer items-center justify-center gap-2 rounded-full bg-primary px-5 py-2.5 font-heading text-sm font-bold text-white shadow-card transition-[background-color,transform] duration-200 hover:bg-primary-hover hover:-translate-y-0.5 active:translate-y-0 active:bg-primary-active focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 sm:w-auto"
+            >
+              <DownloadSimple size={16} aria-hidden="true" />
+              {t.downloadLabel}
+            </button>
+          )}
         </div>
 
         <h2 className="mt-12 font-heading text-xl font-extrabold text-ink">{t.chaptersHeading}</h2>
@@ -52,6 +75,14 @@ export default function KodeEtikPage({ locale }) {
           <Accordion items={accordionItems} defaultOpenIndex={0} />
         </div>
       </section>
+
+      <FileNoticeModal
+        open={noticeOpen}
+        onClose={() => setNoticeOpen(false)}
+        title={notice.title}
+        message={notice.message}
+        closeLabel={notice.closeLabel}
+      />
     </>
   );
 }

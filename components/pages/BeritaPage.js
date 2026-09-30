@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import PageHeader from "@/components/layout/PageHeader";
 import SectionTabs from "@/components/layout/SectionTabs";
-import { CalendarBlank, ArrowRight } from "@phosphor-icons/react";
+import { CalendarBlank, ArrowRight, FileX } from "@phosphor-icons/react";
 import { berita } from "@/dictionaries/berita";
 import { NAV_ITEMS, common } from "@/dictionaries/common";
 
@@ -60,6 +60,15 @@ export default function BeritaPage({ locale }) {
           })}
         </div>
 
+        {items.length === 0 ? (
+          <div className="mt-8 flex flex-col items-center gap-3 rounded-xl border border-border bg-surface px-6 py-16 text-center shadow-card">
+            <span className="flex h-14 w-14 items-center justify-center rounded-full bg-secondary/10 text-secondary">
+              <FileX size={28} weight="bold" aria-hidden="true" />
+            </span>
+            <p className="font-heading text-base font-extrabold text-ink">{t.noResults.title}</p>
+            <p className="max-w-sm text-sm leading-6 text-ink/60">{t.noResults.message}</p>
+          </div>
+        ) : (
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {items.map((item) => (
             <article
@@ -114,6 +123,7 @@ export default function BeritaPage({ locale }) {
             </article>
           ))}
         </div>
+        )}
       </section>
     </>
   );

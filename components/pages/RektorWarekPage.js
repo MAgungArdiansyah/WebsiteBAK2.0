@@ -4,7 +4,7 @@ import { useState } from "react";
 import PageHeader from "@/components/layout/PageHeader";
 import SectionTabs from "@/components/layout/SectionTabs";
 import FileNoticeModal from "@/components/ui/FileNoticeModal";
-import { CalendarBlank, FileText, ArrowRight } from "@phosphor-icons/react";
+import { CalendarBlank, FileText, ArrowRight, MagnifyingGlass, X, FileX, Info } from "@phosphor-icons/react";
 import { rektorWarek } from "@/dictionaries/rektor-warek";
 import { NAV_ITEMS, common } from "@/dictionaries/common";
 
@@ -16,6 +16,7 @@ export default function RektorWarekPage({ locale }) {
   const t = rektorWarek[locale];
   const nav = common[locale].nav;
   const notice = common[locale].fileNotice;
+  const [searchQuery, setSearchQuery] = useState("");
   const [noticeOpen, setNoticeOpen] = useState(false);
   const base = locale === "en" ? "/en" : "";
 
@@ -32,14 +33,73 @@ export default function RektorWarekPage({ locale }) {
       : { label: nav[child.key], href: `${base}${child.href}` }
   );
 
+  const hasData = t.items.length > 0;
+  const query = searchQuery.trim().toLowerCase();
+  const items = t.items.filter(
+    (item) =>
+      !query ||
+      item.title.toLowerCase().includes(query) ||
+      item.docNumber.toLowerCase().includes(query) ||
+      item.issuer.toLowerCase().includes(query)
+  );
+
   return (
     <>
       <PageHeader breadcrumb={breadcrumb} eyebrow={t.eyebrow} title={t.title} subtitle={t.subtitle} />
       <SectionTabs items={tabs} />
 
       <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6">
-        <div className="divide-y divide-border overflow-hidden rounded-xl border border-border bg-surface shadow-card">
-          {t.items.map((item) => (
+        {hasData && (
+          <div className="relative">
+            <MagnifyingGlass
+              size={18}
+              aria-hidden="true"
+              className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-ink/35"
+            />
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder={t.searchPlaceholder}
+              aria-label={t.searchPlaceholder}
+              className="w-full rounded-full border border-border-strong bg-surface py-3 pl-11 pr-11 font-heading text-sm text-ink placeholder:text-ink/35 transition-colors duration-200 focus:border-primary focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+            />
+            {searchQuery && (
+              <button
+                type="button"
+                onClick={() => setSearchQuery("")}
+                aria-label="Clear"
+                className="absolute right-3 top-1/2 flex h-7 w-7 -translate-y-1/2 items-center justify-center rounded-full text-ink/40 transition-colors duration-200 hover:bg-surface-elevated hover:text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+              >
+                <X size={14} aria-hidden="true" />
+              </button>
+            )}
+          </div>
+        )}
+
+        {hasData && (
+          <p className="mt-4 text-xs font-bold text-ink/40">{t.searchResultsLabel(items.length)}</p>
+        )}
+
+        {!hasData ? (
+          <div className="mt-4 flex flex-col items-center gap-3 rounded-xl border border-border bg-surface px-6 py-16 text-center shadow-card">
+            <span className="flex h-14 w-14 items-center justify-center rounded-full bg-primary/10 text-primary">
+              <Info size={28} weight="bold" aria-hidden="true" />
+            </span>
+            <p className="font-heading text-base font-extrabold text-ink">{t.emptyState.title}</p>
+            <p className="max-w-sm text-sm leading-6 text-ink/60">{t.emptyState.message}</p>
+          </div>
+        ) : items.length === 0 ? (
+          <div className="mt-4 flex flex-col items-center gap-3 rounded-xl border border-border bg-surface px-6 py-16 text-center shadow-card">
+            <span className="flex h-14 w-14 items-center justify-center rounded-full bg-secondary/10 text-secondary">
+              <FileX size={28} weight="bold" aria-hidden="true" />
+            </span>
+            <p className="font-heading text-base font-extrabold text-ink">{t.noResults.title}</p>
+            <p className="max-w-sm text-sm leading-6 text-ink/60">{t.noResults.message}</p>
+          </div>
+        ) : (
+        <div className="mt-4 divide-y divide-border overflow-hidden rounded-xl border border-border bg-surface shadow-card">
+          {items.map((item) => (
             <article
               key={item.docNumber}
               className="flex flex-col gap-4 p-5 sm:flex-row sm:items-center sm:justify-between sm:p-6"
@@ -85,6 +145,7 @@ export default function RektorWarekPage({ locale }) {
             </article>
           ))}
         </div>
+        )}
       </section>
 
       <FileNoticeModal

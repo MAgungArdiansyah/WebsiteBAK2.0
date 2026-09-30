@@ -62,9 +62,13 @@ export const tentangKami = {
             { photo: "Staf Administrasi Akademik - Kartiwa.png", name: "Kartiwa", title: "Staf Administrasi Akademik" },
             { photo: "Staf Administrasi Akademik - Novia Selviani.png", name: "Novia Selviani", title: "Staf Administrasi Akademik" },
             { photo: "Staf Keuangan - Nabila Choirunnisa.png", name: "Nabila Choirunnisa, S.Ds.", title: "Staf Keuangan" },
-            { photo: null, name: "Haura Azzahra Kusnandar, S.M", title: "Staf Keuangan" },
+            {
+              photo: "Staf Keuangan Haura.png",
+              photoStyle: { objectPosition: "50% 38%" },
+              name: "Haura Azzahra Kusnandar, S.M",
+              title: "Staf Keuangan",
+            },
             { photo: "Staf IT - M Agung Ardiansyah.png", photoStyle: { objectPosition: "50% 100%", transform: "scale(1.35)", transformOrigin: "50% 36%" }, name: "Muhammad Agung Ardiansyah, S.Kom", title: "Staf IT" },
-            { photo: null, name: "Kholis", title: "Staf Pelaksana" },
           ],
         },
         {
@@ -161,9 +165,13 @@ export const tentangKami = {
             { photo: "Staf Administrasi Akademik - Kartiwa.png", name: "Kartiwa", title: "Academic Administration Staff" },
             { photo: "Staf Administrasi Akademik - Novia Selviani.png", name: "Novia Selviani", title: "Academic Administration Staff" },
             { photo: "Staf Keuangan - Nabila Choirunnisa.png", name: "Nabila Choirunnisa, S.Ds.", title: "Finance Staff" },
-            { photo: null, name: "Haura Azzahra Kusnandar, S.M", title: "Finance Staff" },
+            {
+              photo: "Staf Keuangan Haura.png",
+              photoStyle: { objectPosition: "50% 38%" },
+              name: "Haura Azzahra Kusnandar, S.M",
+              title: "Finance Staff",
+            },
             { photo: "Staf IT - M Agung Ardiansyah.png", photoStyle: { objectPosition: "50% 100%", transform: "scale(1.35)", transformOrigin: "50% 36%" }, name: "Muhammad Agung Ardiansyah, S.Kom", title: "IT Staff" },
-            { photo: null, name: "Kholis", title: "Operations Staff" },
           ],
         },
         {

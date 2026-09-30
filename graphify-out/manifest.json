@@ -162,9 +162,9 @@
     "semantic_hash": ""
   },
   "components/layout/Header.js": {
-    "mtime": 1790665220.0468645,
-    "seen": 1790665422.6583576,
-    "ast_hash": "606f0035481919669e00268347c2161a",
+    "mtime": 1790735957.0551186,
+    "seen": 1790737769.5594373,
+    "ast_hash": "a4c07eb420992c6b4a2fe11d0086f1b4",
     "semantic_hash": ""
   },
   "components/layout/PageHeader.js": {
@@ -186,15 +186,15 @@
     "semantic_hash": ""
   },
   "components/pages/BeritaDetailPage.js": {
-    "mtime": 1790732500.1321905,
-    "seen": 1790732603.3581884,
-    "ast_hash": "e319fae3d4ed89c7c155f8d372d3b093",
+    "mtime": 1790740430.7035549,
+    "seen": 1790740592.588544,
+    "ast_hash": "a1212c8e65fc937da2039f7982eb4a2a",
     "semantic_hash": ""
   },
   "components/pages/BeritaPage.js": {
-    "mtime": 1790732480.2748733,
-    "seen": 1790732603.3581884,
-    "ast_hash": "5b3d55a103b0aa2606dc71320f6e68fa",
+    "mtime": 1790739543.774405,
+    "seen": 1790739609.66617,
+    "ast_hash": "df040a7b9c1e91b7d5603b68113afb79",
     "semantic_hash": ""
   },
   "components/pages/FormulirPage.js": {
@@ -210,10 +210,10 @@
     "semantic_hash": "915ffc28c9f2b4a488bc52ae9bec44bf"
   },
   "components/pages/GaleriPage.js": {
-    "mtime": 1790575509.3516796,
-    "seen": 1790647343.2597332,
-    "ast_hash": "761a086450c393e99c96ea260c3a1cd9",
-    "semantic_hash": "761a086450c393e99c96ea260c3a1cd9"
+    "mtime": 1790739055.1214304,
+    "seen": 1790739304.3481188,
+    "ast_hash": "56dff8917590e527ac39890dfef4bfb6",
+    "semantic_hash": ""
   },
   "components/pages/KebijakanRektorPage.js": {
     "mtime": 1790733951.4831066,
@@ -222,15 +222,15 @@
     "semantic_hash": ""
   },
   "components/pages/KodeEtikPage.js": {
-    "mtime": 1790664843.1773498,
-    "seen": 1790664930.8396347,
-    "ast_hash": "5ac8b4ea3f8c8b348fc5d2df24a36c29",
+    "mtime": 1790736662.0389862,
+    "seen": 1790737769.5594373,
+    "ast_hash": "1affaaa45ff59cfc396772393b3d474f",
     "semantic_hash": ""
   },
   "components/pages/RektorWarekPage.js": {
-    "mtime": 1790733279.9286318,
-    "seen": 1790733521.1573496,
-    "ast_hash": "bbe4796181bd557debd6a92179a64fab",
+    "mtime": 1790742354.957587,
+    "seen": 1790742390.8400626,
+    "ast_hash": "cb23881ae8c2062efaf4f0c4b80867b7",
     "semantic_hash": ""
   },
   "components/pages/SopPage.js": {
@@ -240,9 +240,9 @@
     "semantic_hash": ""
   },
   "components/pages/TataTertibPage.js": {
-    "mtime": 1790664827.0453138,
-    "seen": 1790664930.8396347,
-    "ast_hash": "832cd2b4f5cf9c886ad6d11f476a84a1",
+    "mtime": 1790736682.4611132,
+    "seen": 1790737769.5594373,
+    "ast_hash": "377e7e1c06cef9b45a50ba79bd0b1ae3",
     "semantic_hash": ""
   },
   "components/pages/TentangKamiPage.js": {
@@ -270,9 +270,9 @@
     "semantic_hash": ""
   },
   "dictionaries/berita.js": {
-    "mtime": 1790732462.2303178,
-    "seen": 1790732603.3581884,
-    "ast_hash": "9eb5ee1a8e8a47b2d448c6f924b72767",
+    "mtime": 1790741726.2466857,
+    "seen": 1790741842.3731875,
+    "ast_hash": "188dec329272469c874eb05d3f88b0d7",
     "semantic_hash": ""
   },
   "dictionaries/common.js": {
@@ -288,10 +288,10 @@
     "semantic_hash": "da57329c006e895dabf5d4b21c030bd2"
   },
   "dictionaries/galeri.js": {
-    "mtime": 1790575493.5017862,
-    "seen": 1790647343.2597332,
-    "ast_hash": "d8e202eebe9a032b674954d50f37bd62",
-    "semantic_hash": "d8e202eebe9a032b674954d50f37bd62"
+    "mtime": 1790741923.455234,
+    "seen": 1790741989.2865875,
+    "ast_hash": "4722dce5725ee273498ff068b91b63a9",
+    "semantic_hash": ""
   },
   "dictionaries/kebijakan-rektor.js": {
     "mtime": 1790733898.9106288,
@@ -306,10 +306,10 @@
     "semantic_hash": "c67a3dca623e098d169b49aa2caf51d5"
   },
   "dictionaries/rektor-warek.js": {
-    "mtime": 1790570970.187883,
-    "seen": 1790647343.2597332,
-    "ast_hash": "534808e413ca7c36f5a7c820d24d2e09",
-    "semantic_hash": "534808e413ca7c36f5a7c820d24d2e09"
+    "mtime": 1790742326.5133388,
+    "seen": 1790742390.8400626,
+    "ast_hash": "6622d6bce6f817e7be51ba065b3b1fd2",
+    "semantic_hash": ""
   },
   "dictionaries/sop.js": {
     "mtime": 1790663162.0798087,
@@ -324,9 +324,9 @@
     "semantic_hash": "0045b760d9fad2b48120041f81a85403"
   },
   "dictionaries/tentang-kami.js": {
-    "mtime": 1790676525.4538045,
-    "seen": 1790732603.3581884,
-    "ast_hash": "ee1c46360a722590a39c0832eefa146e",
+    "mtime": 1790742107.4298532,
+    "seen": 1790742158.7652667,
+    "ast_hash": "2cc26d8995ba0cb731280c2567f33083",
     "semantic_hash": ""
   },
   "app/icon.png": {
@@ -342,9 +342,9 @@
     "semantic_hash": ""
   },
   ".claude/settings.local.json": {
-    "mtime": 1790733957.8709743,
-    "seen": 1790733979.02648,
-    "ast_hash": "00b3067db2fde3010e44024a8d3b68fe",
+    "mtime": 1790742668.8792844,
+    "seen": 1790742689.4119232,
+    "ast_hash": "f4614715ad331808bc71786fa236e7db",
     "semantic_hash": ""
   },
   "app/en/hubungi-kami/page.js": {
@@ -360,14 +360,14 @@
     "semantic_hash": ""
   },
   "components/pages/HubungiKamiPage.js": {
-    "mtime": 1790652183.4047883,
-    "seen": 1790653520.9294908,
-    "ast_hash": "1fc88892f27273dea2762d3ef6fd1caa",
+    "mtime": 1790742657.0286064,
+    "seen": 1790742689.4119232,
+    "ast_hash": "aac02669eaf7173c6480340f1d7fc984",
     "semantic_hash": ""
   },
   "dictionaries/hubungi-kami.js": {
-    "mtime": 1790649987.3400178,
-    "seen": 1790650162.2945337,
+    "mtime": 1790742599.3097775,
+    "seen": 1790742628.1499636,
     "ast_hash": "bf6375c548f195d6d3c73f6676ecd6cf",
     "semantic_hash": ""
   },
@@ -551,60 +551,6 @@
     "ast_hash": "19317911887867abe1484d1cf7205dee",
     "semantic_hash": ""
   },
-  "public/brand_assets/DSC01388.JPG": {
-    "mtime": 1790567930.8196628,
-    "seen": 1790650162.2945337,
-    "ast_hash": "eb09dda66cb68c07f1dd5b8139c66a49",
-    "semantic_hash": ""
-  },
-  "public/brand_assets/DSC05175.JPG": {
-    "mtime": 1790567930.9151616,
-    "seen": 1790650162.2945337,
-    "ast_hash": "57bfb6e99ad7087e8ebe66e1c24f5fcd",
-    "semantic_hash": ""
-  },
-  "public/brand_assets/IMG_20250226_232332.jpg": {
-    "mtime": 1790567930.8886147,
-    "seen": 1790650162.2945337,
-    "ast_hash": "03db567c36be695cf0462fd2d7a2db89",
-    "semantic_hash": ""
-  },
-  "public/brand_assets/Internship.JPG": {
-    "mtime": 1790567930.838698,
-    "seen": 1790650162.2945337,
-    "ast_hash": "2cf9df7973e1deb78a30881ac948fc99",
-    "semantic_hash": ""
-  },
-  "public/brand_assets/Internship_01.jpg": {
-    "mtime": 1790567930.8466969,
-    "seen": 1790650162.2945337,
-    "ast_hash": "a02c00aa54dd8c44acc15426aa359de1",
-    "semantic_hash": ""
-  },
-  "public/brand_assets/Riset.JPG": {
-    "mtime": 1790567930.9041317,
-    "seen": 1790650162.2945337,
-    "ast_hash": "34b38a58974626b55c443b0326cd63ca",
-    "semantic_hash": ""
-  },
-  "public/brand_assets/Scolarship.JPG": {
-    "mtime": 1790567930.8971195,
-    "seen": 1790650162.2945337,
-    "ast_hash": "9e63909f11112426529bab98f96c38e5",
-    "semantic_hash": ""
-  },
-  "public/brand_assets/Scolarship_01.jpg": {
-    "mtime": 1790567930.810134,
-    "seen": 1790650162.2945337,
-    "ast_hash": "0942a610ffe3c5767cca7627e9b0be38",
-    "semantic_hash": ""
-  },
-  "public/brand_assets/Unpak.png": {
-    "mtime": 1790567930.8131351,
-    "seen": 1790650162.2945337,
-    "ast_hash": "cf88330de5dc660e993946506ee3716b",
-    "semantic_hash": ""
-  },
   "public/brand_assets/Wisuda 1.JPG": {
     "mtime": 1790567930.9267077,
     "seen": 1790650162.2945337,
@@ -621,12 +567,6 @@
     "mtime": 1790567930.8896153,
     "seen": 1790650162.2945337,
     "ast_hash": "04d02059e4b9584cba4bc810c0382438",
-    "semantic_hash": ""
-  },
-  "public/brand_assets/visiting_prof.JPG": {
-    "mtime": 1790567930.8111339,
-    "seen": 1790650162.2945337,
-    "ast_hash": "19317911887867abe1484d1cf7205dee",
     "semantic_hash": ""
   },
   "temporary screenshots/screenshot-1-beranda-en-nunito.png": {
@@ -1059,6 +999,48 @@
     "mtime": 1790676682.3056507,
     "seen": 1790732603.3581884,
     "ast_hash": "0d9d962f229ec0dc13a7aeb66e63febb",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Konferensi IUCN IdSSG 2026.webp": {
+    "mtime": 1790739258.4493687,
+    "seen": 1790740085.5801718,
+    "ast_hash": "b63aa95133d2f0519c47824131b56cc4",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Staf Keuangan Haura.png": {
+    "mtime": 1790738949.511089,
+    "seen": 1790740085.5801718,
+    "ast_hash": "15d360efca396defdf4a9f2eefd3c498",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Sertifikasi ISO - 1.jpeg": {
+    "mtime": 1790740161.438651,
+    "seen": 1790740592.588544,
+    "ast_hash": "e4075ed6127160232494fc7a97224570",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Sertifikasi ISO - 2.jpeg": {
+    "mtime": 1790740165.886399,
+    "seen": 1790740592.588544,
+    "ast_hash": "7ac0cef7d4a0312f8775db2742db73e4",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Sertifikasi ISO - 3.jpeg": {
+    "mtime": 1790740177.5364301,
+    "seen": 1790740592.588544,
+    "ast_hash": "ebd2e91dcf10bdfce02696527bbb95ea",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Sertifikasi ISO - 4.jpeg": {
+    "mtime": 1790740171.8418822,
+    "seen": 1790740592.588544,
+    "ast_hash": "81df7cb2a1a4b8521eeeddab97915adf",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/PMB.jpg": {
+    "mtime": 1790741056.067991,
+    "seen": 1790741268.592295,
+    "ast_hash": "11907676fb862a445459816975873f97",
     "semantic_hash": ""
   }
 }

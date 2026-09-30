@@ -9,6 +9,7 @@ import {
   EnvelopeSimple,
   MapPin,
   Phone,
+  Clock,
   Copy,
   Check,
   InstagramLogo,
@@ -80,6 +81,11 @@ export default function HubungiKamiPage({ locale = "id" }) {
           <h2 className="mt-2 text-center font-heading text-2xl font-extrabold text-ink sm:text-3xl">
             {t.sectionTitle}
           </h2>
+          <div className="mt-4 flex flex-wrap items-center justify-center gap-x-2.5 gap-y-1 text-center text-base text-ink/70 sm:text-lg">
+            <Clock size={22} weight="bold" aria-hidden="true" className="shrink-0 text-primary" />
+            <span className="font-heading font-bold text-ink">{c.footer.hoursHeading}:</span>
+            <span>{c.footer.hours.join(" · ")}</span>
+          </div>
 
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             <ContactCard icon={EnvelopeSimple} label={t.cards.email.label} note={t.cards.email.note}>

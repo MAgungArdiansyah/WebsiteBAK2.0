@@ -74,9 +74,13 @@ export default function BeritaDetailPage({ locale, slug }) {
           ))}
         </div>
 
-        {item.images?.[1] && (
-          <div className="relative mt-8 aspect-[16/9] overflow-hidden rounded-xl shadow-card">
-            <Image src={asset(item.images[1])} alt="" fill sizes="(min-width: 1024px) 60vw, 90vw" className="object-cover" />
+        {item.images?.length > 1 && (
+          <div className="mt-8 grid gap-5 sm:grid-cols-2">
+            {item.images.slice(1).map((image) => (
+              <div key={image} className="relative aspect-[16/9] overflow-hidden rounded-xl shadow-card">
+                <Image src={asset(image)} alt="" fill sizes="(min-width: 1024px) 30vw, 90vw" className="object-cover" />
+              </div>
+            ))}
           </div>
         )}
 

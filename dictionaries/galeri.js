@@ -1,5 +1,44 @@
 const asset = (name) => name;
 
+const MONTHS = {
+  jan: 0,
+  feb: 1,
+  mar: 2,
+  apr: 3,
+  mei: 4,
+  may: 4,
+  jun: 5,
+  jul: 6,
+  agu: 7,
+  aug: 7,
+  sep: 8,
+  okt: 9,
+  oct: 9,
+  nov: 10,
+  des: 11,
+  dec: 11,
+};
+
+function parseActivityDate(value) {
+  const idMatch = value.match(/^(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})$/);
+  if (idMatch) {
+    const [, day, month, year] = idMatch;
+    const monthIndex = MONTHS[month.toLowerCase()];
+    if (monthIndex !== undefined) return new Date(Number(year), monthIndex, Number(day)).getTime();
+  }
+  const enMatch = value.match(/^([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})$/);
+  if (enMatch) {
+    const [, month, day, year] = enMatch;
+    const monthIndex = MONTHS[month.toLowerCase()];
+    if (monthIndex !== undefined) return new Date(Number(year), monthIndex, Number(day)).getTime();
+  }
+  return 0;
+}
+
+function sortByDateDesc(items) {
+  return [...items].sort((a, b) => parseActivityDate(b.date) - parseActivityDate(a.date));
+}
+
 export const galeri = {
   id: {
     eyebrow: "Galeri",
@@ -11,15 +50,19 @@ export const galeri = {
     backLabel: "Kembali ke Galeri",
     relatedHeading: "Kegiatan Lainnya",
     photoCountLabel: (n) => `${n} foto`,
+    noResults: {
+      title: "Kegiatan Tidak Ditemukan",
+      message: "Belum ada dokumentasi kegiatan untuk kategori ini. Silakan pilih kategori lain.",
+    },
     items: [
       {
         slug: "wisuda-universitas-pakuan-periode-i-2026",
         category: "Wisuda",
         date: "14 Feb 2026",
         title: "Wisuda Universitas Pakuan Periode I 2026",
-        excerpt: "Dokumentasi pelaksanaan wisuda Universitas Pakuan Periode I Tahun 2026 di Graha Pakuan Siliwangi.",
+        excerpt: "Dokumentasi pelaksanaan wisuda Universitas Pakuan Periode I Tahun 2026.",
         body: [
-          "Universitas Pakuan menyelenggarakan wisuda Periode I Tahun 2026 yang diikuti oleh ratusan wisudawan dari berbagai program studi. Acara berlangsung khidmat di Graha Pakuan Siliwangi dan dihadiri oleh jajaran pimpinan universitas, dosen, serta keluarga wisudawan.",
+          "Universitas Pakuan menyelenggarakan wisuda Periode I Tahun 2026 yang diikuti oleh ratusan wisudawan dari berbagai program studi. Acara berlangsung khidmat dan dihadiri oleh jajaran pimpinan universitas, dosen, serta keluarga wisudawan.",
           "Prosesi wisuda diawali dengan pembacaan janji wisuda oleh perwakilan wisudawan, dilanjutkan dengan penyerahan ijazah secara simbolis dan sambutan dari pimpinan universitas.",
           "BAK berperan dalam memastikan seluruh proses administrasi wisuda, mulai dari pendaftaran hingga penerbitan ijazah, berjalan lancar bagi seluruh wisudawan.",
         ],
@@ -31,7 +74,7 @@ export const galeri = {
       {
         slug: "penerimaan-mahasiswa-baru-pmb-2026",
         category: "PMB",
-        date: "20 Agu 2025",
+        date: "27 Des 2025",
         title: "Penerimaan Mahasiswa Baru (PMB) 2026",
         excerpt: "Rangkaian kegiatan penerimaan dan pengenalan kampus bagi mahasiswa baru Universitas Pakuan.",
         body: [
@@ -40,59 +83,77 @@ export const galeri = {
           "BAK turut serta dalam penyelenggaraan PMB, khususnya pada aspek administrasi akademik seperti aktivasi Kartu Tanda Mahasiswa (KTM) dan pengarahan awal terkait sistem informasi akademik.",
         ],
         photos: [
-          { file: asset("DSC01388.JPG"), caption: "Mahasiswa baru mengenal lingkungan Graha Pakuan Siliwangi" },
-          { file: asset("Scolarship.JPG"), caption: "Sesi pengenalan kampus bersama mahasiswa baru" },
-          { file: asset("Scolarship_01.jpg"), caption: "Mahasiswa baru berkumpul di ruang belajar bersama" },
+          { file: asset("PMB.jpg"), caption: "Mahasiswa baru pada kegiatan Penerimaan Mahasiswa Baru (PMB) 2026" },
         ],
       },
       {
-        slug: "riset-dan-praktikum-mahasiswa",
+        slug: "bak-ikuti-sertifikasi-iso-rektorat-unpak-2026",
         category: "Kegiatan Kampus",
-        date: "18 Nov 2025",
-        title: "Kegiatan Riset dan Praktikum Mahasiswa",
-        excerpt: "Mahasiswa melaksanakan praktikum dan kegiatan riset di laboratorium kampus sebagai bagian dari penguatan kompetensi akademik.",
+        date: "3 Sep 2026",
+        title: "BAK Ikuti Sertifikasi ISO di Rektorat Universitas Pakuan",
+        excerpt:
+          "Biro Akademik dan Kemahasiswaan (BAK) turut serta dalam kegiatan sertifikasi ISO yang diselenggarakan di Rektorat Universitas Pakuan sebagai bagian dari upaya peningkatan mutu layanan.",
         body: [
-          "Mahasiswa dari berbagai program studi rutin melaksanakan kegiatan praktikum dan riset di laboratorium kampus, mulai dari analisis larutan kimia hingga penyusunan laporan hasil penelitian.",
-          "Kegiatan semacam ini menjadi bagian penting dari kurikulum untuk memperkuat kompetensi riset mahasiswa sekaligus mempersiapkan mereka menghadapi tugas akhir maupun dunia kerja.",
-          "BAK mendukung kelancaran kegiatan akademik semacam ini melalui koordinasi jadwal dan administrasi yang berkaitan dengan kegiatan laboratorium dan riset mahasiswa.",
+          "Biro Akademik dan Kemahasiswaan (BAK) Universitas Pakuan turut berpartisipasi dalam kegiatan sertifikasi ISO yang diselenggarakan di Rektorat Universitas Pakuan pada 3 September 2026. Kegiatan ini merupakan bagian dari proses audit dan asesmen sistem manajemen mutu yang diikuti oleh berbagai unit kerja di lingkungan universitas.",
+          "Dalam sesi tersebut, tim BAK memaparkan penerapan Standar Operasional Prosedur (SOP) pelayanan akademik dan kemahasiswaan di hadapan tim asesor, sekaligus menunjukkan dokumentasi serta bukti pelaksanaan layanan yang telah berjalan sesuai standar yang ditetapkan.",
+          "Kegiatan berlangsung secara interaktif melalui presentasi dan diskusi bersama pimpinan universitas, tim manajemen mutu, serta perwakilan unit kerja lainnya, guna memastikan seluruh proses layanan telah memenuhi ketentuan standar ISO yang berlaku.",
+          "Melalui keikutsertaan dalam sertifikasi ISO ini, BAK berkomitmen untuk terus meningkatkan mutu dan konsistensi layanan akademik dan kemahasiswaan bagi seluruh sivitas akademika Universitas Pakuan.",
         ],
         photos: [
-          { file: asset("Riset.JPG"), caption: "Mahasiswa melakukan praktikum di laboratorium kimia" },
-          { file: asset("DSC05175.JPG"), caption: "Mahasiswa menyusun catatan penelitian di laboratorium riset" },
+          { file: asset("Sertifikasi ISO - 1.jpeg"), caption: "Sesi presentasi dan diskusi bersama tim asesor ISO" },
+          { file: asset("Sertifikasi ISO - 2.jpeg"), caption: "Tim BAK bersama pimpinan universitas dan tim manajemen mutu" },
+          { file: asset("Sertifikasi ISO - 3.jpeg"), caption: "Suasana sesi audit dan asesmen sistem manajemen mutu" },
+          { file: asset("Sertifikasi ISO - 4.jpeg"), caption: "Diskusi bersama pimpinan universitas dan perwakilan unit kerja" },
         ],
       },
-      {
-        slug: "magang-mahasiswa-radio-kampus",
-        category: "Kegiatan Kampus",
-        date: "5 Okt 2025",
-        title: "Magang Mahasiswa di Radio Kampus",
-        excerpt: "Mahasiswa mengikuti program magang penyiaran di studio Radio Kampus Universitas Pakuan.",
-        body: [
-          "Mahasiswa mengikuti program magang penyiaran di studio Radio Kampus Universitas Pakuan, mempelajari langsung teknik siaran dan produksi konten audio bersama para praktisi.",
-          "Program magang ini menjadi salah satu bentuk penerapan Merdeka Belajar Kampus Merdeka (MBKM), yang memberikan pengalaman kerja nyata sekaligus mengasah kepercayaan diri dan kemampuan komunikasi publik mahasiswa.",
-          "BAK memfasilitasi pengakuan kegiatan magang semacam ini ke dalam satuan kredit semester sesuai ketentuan program MBKM yang berlaku.",
-        ],
-        photos: [
-          { file: asset("Internship.JPG"), caption: "Mahasiswa magang di studio Radio Kampus Universitas Pakuan" },
-          { file: asset("Internship_01.jpg"), caption: "Sesi praktik siaran radio dalam program magang mahasiswa" },
-        ],
-      },
-      {
-        slug: "kuliah-tamu-dan-dosen-afiliasi",
-        category: "Kegiatan Kampus",
-        date: "22 Sep 2025",
-        title: "Kuliah Tamu dan Dosen Afiliasi",
-        excerpt: "Kuliah umum dan diskusi kelas bersama dosen tamu internasional serta dosen afiliasi Universitas Pakuan.",
-        body: [
-          "Universitas Pakuan secara berkala menghadirkan dosen tamu dari universitas mitra luar negeri dalam program Visiting Professor, memberikan kuliah umum yang memperluas wawasan akademik mahasiswa dan dosen.",
-          "Selain itu, dosen afiliasi yang berasal dari luar lingkungan akademik turut dilibatkan dalam sesi diskusi kelas untuk berbagi pengalaman dan perspektif praktis dari industri.",
-          "Kegiatan ini merupakan bagian dari upaya Universitas Pakuan memperkuat kualitas pembelajaran melalui kolaborasi akademik dan kerja sama institusional.",
-        ],
-        photos: [
-          { file: asset("visiting_prof.JPG"), caption: "Kuliah umum bersama dosen tamu internasional (visiting professor)" },
-          { file: asset("affiliate_prof.JPG"), caption: "Diskusi kelas bersama dosen afiliasi" },
-        ],
-      },
+      // {
+      //   slug: "riset-dan-praktikum-mahasiswa",
+      //   category: "Kegiatan Kampus",
+      //   date: "18 Nov 2025",
+      //   title: "Kegiatan Riset dan Praktikum Mahasiswa",
+      //   excerpt: "Mahasiswa melaksanakan praktikum dan kegiatan riset di laboratorium kampus sebagai bagian dari penguatan kompetensi akademik.",
+      //   body: [
+      //     "Mahasiswa dari berbagai program studi rutin melaksanakan kegiatan praktikum dan riset di laboratorium kampus, mulai dari analisis larutan kimia hingga penyusunan laporan hasil penelitian.",
+      //     "Kegiatan semacam ini menjadi bagian penting dari kurikulum untuk memperkuat kompetensi riset mahasiswa sekaligus mempersiapkan mereka menghadapi tugas akhir maupun dunia kerja.",
+      //     "BAK mendukung kelancaran kegiatan akademik semacam ini melalui koordinasi jadwal dan administrasi yang berkaitan dengan kegiatan laboratorium dan riset mahasiswa.",
+      //   ],
+      //   photos: [
+      //     { file: asset("Riset.JPG"), caption: "Mahasiswa melakukan praktikum di laboratorium kimia" },
+      //     { file: asset("DSC05175.JPG"), caption: "Mahasiswa menyusun catatan penelitian di laboratorium riset" },
+      //   ],
+      // },
+      // {
+      //   slug: "magang-mahasiswa-radio-kampus",
+      //   category: "Kegiatan Kampus",
+      //   date: "5 Okt 2025",
+      //   title: "Magang Mahasiswa di Radio Kampus",
+      //   excerpt: "Mahasiswa mengikuti program magang penyiaran di studio Radio Kampus Universitas Pakuan.",
+      //   body: [
+      //     "Mahasiswa mengikuti program magang penyiaran di studio Radio Kampus Universitas Pakuan, mempelajari langsung teknik siaran dan produksi konten audio bersama para praktisi.",
+      //     "Program magang ini menjadi salah satu bentuk penerapan Merdeka Belajar Kampus Merdeka (MBKM), yang memberikan pengalaman kerja nyata sekaligus mengasah kepercayaan diri dan kemampuan komunikasi publik mahasiswa.",
+      //     "BAK memfasilitasi pengakuan kegiatan magang semacam ini ke dalam satuan kredit semester sesuai ketentuan program MBKM yang berlaku.",
+      //   ],
+      //   photos: [
+      //     { file: asset("Internship.JPG"), caption: "Mahasiswa magang di studio Radio Kampus Universitas Pakuan" },
+      //     { file: asset("Internship_01.jpg"), caption: "Sesi praktik siaran radio dalam program magang mahasiswa" },
+      //   ],
+      // },
+      // {
+      //   slug: "kuliah-tamu-dan-dosen-afiliasi",
+      //   category: "Kegiatan Kampus",
+      //   date: "22 Sep 2025",
+      //   title: "Kuliah Tamu dan Dosen Afiliasi",
+      //   excerpt: "Kuliah umum dan diskusi kelas bersama dosen tamu internasional serta dosen afiliasi Universitas Pakuan.",
+      //   body: [
+      //     "Universitas Pakuan secara berkala menghadirkan dosen tamu dari universitas mitra luar negeri dalam program Visiting Professor, memberikan kuliah umum yang memperluas wawasan akademik mahasiswa dan dosen.",
+      //     "Selain itu, dosen afiliasi yang berasal dari luar lingkungan akademik turut dilibatkan dalam sesi diskusi kelas untuk berbagi pengalaman dan perspektif praktis dari industri.",
+      //     "Kegiatan ini merupakan bagian dari upaya Universitas Pakuan memperkuat kualitas pembelajaran melalui kolaborasi akademik dan kerja sama institusional.",
+      //   ],
+      //   photos: [
+      //     { file: asset("visiting_prof.JPG"), caption: "Kuliah umum bersama dosen tamu internasional (visiting professor)" },
+      //     { file: asset("affiliate_prof.JPG"), caption: "Diskusi kelas bersama dosen afiliasi" },
+      //   ],
+      // },
     ],
   },
   en: {
@@ -105,6 +166,10 @@ export const galeri = {
     backLabel: "Back to Gallery",
     relatedHeading: "More Activities",
     photoCountLabel: (n) => `${n} photo${n === 1 ? "" : "s"}`,
+    noResults: {
+      title: "No Activities Found",
+      message: "There's no activity documentation for this category yet. Please choose another category.",
+    },
     items: [
       {
         slug: "universitas-pakuan-graduation-period-i-2026",
@@ -134,9 +199,27 @@ export const galeri = {
           "BAK took part in organizing PMB, particularly on the academic administration side, such as Student ID Card (KTM) activation and an initial briefing on the academic information system.",
         ],
         photos: [
-          { file: asset("DSC01388.JPG"), caption: "New students exploring Graha Pakuan Siliwangi" },
-          { file: asset("Scolarship.JPG"), caption: "Campus orientation session with new students" },
-          { file: asset("Scolarship_01.jpg"), caption: "New students gathered in the shared study space" },
+          { file: asset("PMB.jpg"), caption: "New students during the 2026 New Student Admission (PMB) activities" },
+        ],
+      },
+      {
+        slug: "bak-joins-iso-certification-unpak-rectorate-2026",
+        category: "Campus Activities",
+        date: "Sep 3, 2026",
+        title: "BAK Takes Part in ISO Certification at the Universitas Pakuan Rectorate",
+        excerpt:
+          "The Bureau of Academic and Student Affairs (BAK) took part in an ISO certification activity held at the Universitas Pakuan Rectorate as part of ongoing efforts to improve service quality.",
+        body: [
+          "The Bureau of Academic and Student Affairs (BAK) at Universitas Pakuan took part in an ISO certification activity held at the Universitas Pakuan Rectorate on September 3, 2026. The event was part of a quality management system audit and assessment process involving various work units across the university.",
+          "During the session, the BAK team presented how Standard Operating Procedures (SOPs) for academic and student services are implemented, in front of the assessor team, while also showing documentation and evidence that services have been carried out in accordance with the established standards.",
+          "The session ran interactively through presentations and discussions with university leadership, the quality management team, and representatives from other work units, to ensure every service process meets the applicable ISO standard requirements.",
+          "Through its participation in this ISO certification, BAK reaffirms its commitment to continuously improving the quality and consistency of academic and student services for the entire Universitas Pakuan academic community.",
+        ],
+        photos: [
+          { file: asset("Sertifikasi ISO - 1.jpeg"), caption: "Presentation and discussion session with the ISO assessor team" },
+          { file: asset("Sertifikasi ISO - 2.jpeg"), caption: "The BAK team with university leadership and the quality management team" },
+          { file: asset("Sertifikasi ISO - 3.jpeg"), caption: "The quality management system audit and assessment session" },
+          { file: asset("Sertifikasi ISO - 4.jpeg"), caption: "Discussion with university leadership and unit representatives" },
         ],
       },
       {
@@ -190,3 +273,6 @@ export const galeri = {
     ],
   },
 };
+
+galeri.id.items = sortByDateDesc(galeri.id.items);
+galeri.en.items = sortByDateDesc(galeri.en.items);
