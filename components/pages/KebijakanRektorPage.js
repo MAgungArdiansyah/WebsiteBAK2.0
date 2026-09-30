@@ -4,7 +4,7 @@ import { useState } from "react";
 import PageHeader from "@/components/layout/PageHeader";
 import SectionTabs from "@/components/layout/SectionTabs";
 import FileNoticeModal from "@/components/ui/FileNoticeModal";
-import { CalendarBlank, FileText, ArrowRight } from "@phosphor-icons/react";
+import { CalendarBlank, FileText, ArrowRight, Info } from "@phosphor-icons/react";
 import { kebijakanRektor } from "@/dictionaries/kebijakan-rektor";
 import { NAV_ITEMS, common } from "@/dictionaries/common";
 
@@ -34,6 +34,15 @@ export default function KebijakanRektorPage({ locale }) {
       <SectionTabs items={tabs} />
 
       <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6">
+        {t.items.length === 0 ? (
+          <div className="flex flex-col items-center gap-3 rounded-xl border border-border bg-surface px-6 py-16 text-center shadow-card">
+            <span className="flex h-14 w-14 items-center justify-center rounded-full bg-primary/10 text-primary">
+              <Info size={28} weight="bold" aria-hidden="true" />
+            </span>
+            <p className="font-heading text-base font-extrabold text-ink">{t.emptyState.title}</p>
+            <p className="max-w-sm text-sm leading-6 text-ink/60">{t.emptyState.message}</p>
+          </div>
+        ) : (
         <div className="divide-y divide-border overflow-hidden rounded-xl border border-border bg-surface shadow-card">
           {t.items.map((item) => (
             <article
@@ -76,6 +85,7 @@ export default function KebijakanRektorPage({ locale }) {
             </article>
           ))}
         </div>
+        )}
       </section>
 
       <FileNoticeModal

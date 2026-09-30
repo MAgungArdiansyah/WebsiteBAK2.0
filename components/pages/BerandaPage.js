@@ -19,8 +19,14 @@ export default function BerandaPage({ locale }) {
     <>
       {/* Hero */}
       <section className="bg-grain relative overflow-hidden bg-ink-deep">
-        <div className="pointer-events-none absolute -right-24 -top-24 h-96 w-96 rounded-full bg-primary/30 blur-3xl" aria-hidden="true" />
-        <div className="pointer-events-none absolute -left-32 bottom-0 h-80 w-80 rounded-full bg-secondary/20 blur-3xl" aria-hidden="true" />
+        <div
+          className="pointer-events-none absolute -right-24 -top-24 h-96 w-96 animate-drift-a rounded-full bg-primary/30 blur-3xl"
+          aria-hidden="true"
+        />
+        <div
+          className="pointer-events-none absolute -left-32 bottom-0 h-80 w-80 animate-drift-b rounded-full bg-secondary/20 blur-3xl"
+          aria-hidden="true"
+        />
         <div className="relative mx-auto grid max-w-6xl gap-12 px-4 py-16 sm:px-6 sm:py-20 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:py-24">
           <div>
             <p className="font-heading text-sm font-bold text-accent">{t.hero.eyebrow}</p>
@@ -143,14 +149,24 @@ export default function BerandaPage({ locale }) {
               className="group flex flex-col overflow-hidden rounded-xl border border-border bg-surface shadow-card transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-card-hover"
             >
               <div className="relative aspect-[16/10] overflow-hidden">
-                <Image
-                  src={`https://placehold.co/640x400/25283d/ffffff.png?text=${encodeURIComponent(item.category)}`}
-                  alt=""
-                  fill
-                  unoptimized
-                  sizes="(min-width: 1024px) 30vw, 90vw"
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                />
+                {item.images?.[0] ? (
+                  <Image
+                    src={asset(item.images[0])}
+                    alt=""
+                    fill
+                    sizes="(min-width: 1024px) 30vw, 90vw"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                ) : (
+                  <Image
+                    src={`https://placehold.co/640x400/25283d/ffffff.png?text=${encodeURIComponent(item.category)}`}
+                    alt=""
+                    fill
+                    unoptimized
+                    sizes="(min-width: 1024px) 30vw, 90vw"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                )}
                 <span className="absolute left-3 top-3 rounded-full bg-secondary px-3 py-1 font-heading text-xs font-bold text-white">
                   {item.category}
                 </span>

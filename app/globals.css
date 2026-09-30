@@ -36,6 +36,8 @@
   --radius-xl: 1.75rem;
 
   --animate-fade-up: fade-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+  --animate-drift-a: drift-a 22s ease-in-out infinite;
+  --animate-drift-b: drift-b 26s ease-in-out infinite;
 
   @keyframes fade-up {
     from {
@@ -45,6 +47,32 @@
     to {
       opacity: 1;
       transform: translateY(0);
+    }
+  }
+
+  @keyframes drift-a {
+    0%,
+    100% {
+      transform: translate(0, 0) scale(1);
+    }
+    33% {
+      transform: translate(-8%, 10%) scale(1.12);
+    }
+    66% {
+      transform: translate(6%, 4%) scale(0.94);
+    }
+  }
+
+  @keyframes drift-b {
+    0%,
+    100% {
+      transform: translate(0, 0) scale(1);
+    }
+    33% {
+      transform: translate(9%, -6%) scale(0.92);
+    }
+    66% {
+      transform: translate(-5%, -12%) scale(1.1);
     }
   }
 }

@@ -10,6 +10,21 @@ export const berita = {
     relatedHeading: "Berita Lainnya",
     items: [
       {
+        slug: "kesuksesan-pkkmb-unpak-2026",
+        category: "Kemahasiswaan",
+        date: "16 Sep 2026",
+        title: "PKKMB Universitas Pakuan 2026 Sukses Digelar",
+        excerpt:
+          "Rangkaian Pengenalan Kehidupan Kampus bagi Mahasiswa Baru (PKKMB) Universitas Pakuan Tahun 2026 berjalan lancar dan meriah. BAK menyampaikan harapan agar seluruh mahasiswa baru dapat meraih cita-cita masing-masing.",
+        images: ["PKKMB 2026 - 1.jpeg", "PKKMB 2026 - 2.jpeg"],
+        body: [
+          "Pengenalan Kehidupan Kampus bagi Mahasiswa Baru (PKKMB) Universitas Pakuan Tahun Akademik 2026/2027 telah resmi berakhir dan berjalan dengan sukses. Kegiatan yang berlangsung selama beberapa hari ini diikuti oleh ribuan mahasiswa baru dari seluruh fakultas dan program studi di lingkungan Universitas Pakuan.",
+          "Selama masa PKKMB, mahasiswa baru mengikuti berbagai rangkaian kegiatan, mulai dari pengenalan visi, misi, dan nilai-nilai Universitas Pakuan, pengenalan fakultas dan program studi, pengenalan organisasi kemahasiswaan, hingga sesi motivasi dan pembekalan dari pimpinan universitas serta dosen. Suasana penuh semangat turut terlihat pada berbagai sesi ice breaking dan kegiatan kebersamaan antar mahasiswa baru.",
+          "Biro Akademik dan Kemahasiswaan (BAK) berperan aktif dalam mengoordinasikan seluruh aspek administratif dan teknis penyelenggaraan PKKMB, mulai dari pendataan peserta, penyebaran informasi jadwal kegiatan, hingga koordinasi dengan seluruh fakultas dan unit terkait, sehingga kegiatan dapat berjalan tertib dan lancar dari awal hingga akhir.",
+          "Melalui momentum ini, BAK dan seluruh civitas akademika Universitas Pakuan menyampaikan selamat datang dan selamat bergabung kepada seluruh mahasiswa baru. Besar harapan kami agar seluruh mahasiswa baru dapat beradaptasi dengan baik, aktif dalam kegiatan akademik maupun kemahasiswaan, serta pada akhirnya mampu meraih cita-cita dan mimpi masing-masing selama menempuh pendidikan di Universitas Pakuan.",
+        ],
+      },
+      {
         slug: "perpanjangan-waktu-pembayaran-biaya-kuliah",
         category: "Keuangan",
         date: "3 Feb 2026",
@@ -125,6 +140,21 @@ export const berita = {
     backLabel: "Back to News",
     relatedHeading: "More News",
     items: [
+      {
+        slug: "unpak-2026-orientation-week-success",
+        category: "Student Affairs",
+        date: "Sep 16, 2026",
+        title: "Universitas Pakuan's 2026 New Student Orientation Wraps Up Successfully",
+        excerpt:
+          "The 2026 New Student Orientation (PKKMB) at Universitas Pakuan concluded successfully. BAK extends its hopes that every new student will achieve their own dreams and aspirations.",
+        images: ["PKKMB 2026 - 1.jpeg", "PKKMB 2026 - 2.jpeg"],
+        body: [
+          "The 2026/2027 New Student Orientation (PKKMB) at Universitas Pakuan has officially concluded and ran successfully. Held over several days, the program was attended by thousands of new students from every faculty and study program across the university.",
+          "Throughout PKKMB, new students took part in a range of activities, from an introduction to Universitas Pakuan's vision, mission, and values, to an overview of faculties and study programs, an introduction to student organizations, and motivational sessions led by university leadership and faculty. The atmosphere stayed lively throughout, with ice-breaking sessions and community-building activities among the new students.",
+          "The Bureau of Academic and Student Affairs (BAK) played an active role in coordinating the administrative and logistical side of PKKMB, from registering participants and distributing the activity schedule to coordinating with every faculty and unit involved, keeping the event running smoothly from start to finish.",
+          "On this occasion, BAK and the entire Universitas Pakuan academic community welcome all new students with open arms. We sincerely hope every new student adapts well, stays active in both academic and student life, and ultimately achieves their own dreams and aspirations throughout their studies at Universitas Pakuan.",
+        ],
+      },
       {
         slug: "tuition-fee-payment-deadline-extension",
         category: "Finance",

@@ -36,7 +36,15 @@
       "Bash(node check-photos.mjs)",
       "Bash(node screenshot.mjs http://localhost:3000 hero-desktop 1440 900)",
       "Bash(node screenshot.mjs http://localhost:3000 hero-mobile 390 900)",
-      "Bash(cd \"c:\\\\Users\\\\BAAK_PC02\\\\Documents\\\\Kerja\\\\Code\\\\claudewebtest\" && rm -f \"temporary screenshots/hero-frame-\"*.png)"
+      "Bash(cd \"c:\\\\Users\\\\BAAK_PC02\\\\Documents\\\\Kerja\\\\Code\\\\claudewebtest\" && rm -f \"temporary screenshots/hero-frame-\"*.png)",
+      "Bash(node screenshot.mjs http://localhost:3000/pengumuman/berita/kesuksesan-pkkmb-unpak-2026 pkkmb-detail)",
+      "Bash(node screenshot.mjs http://localhost:3000/pengumuman/berita berita-listing 1440 1000)",
+      "Bash(node screenshot.mjs http://localhost:3000 beranda-pkkmb 1440 1400)",
+      "Bash(node screenshot.mjs http://localhost:3000/en/pengumuman/berita/unpak-2026-orientation-week-success pkkmb-en 1440 1400)",
+      "Bash(node test-glow.mjs)",
+      "Bash(node screenshot.mjs http://localhost:3000/kebijakan/kebijakan-rektor empty-rektor)",
+      "Bash(node screenshot.mjs http://localhost:3000/kebijakan/kebijakan-warek empty-warek)",
+      "Bash(node screenshot.mjs http://localhost:3000/en/kebijakan/kebijakan-rektor empty-rektor-en)"
     ],
     "additionalDirectories": [
       "C:\\Users\\BAAK_PC02\\Documents\\Kerja\\Code\\claudewebtest\\temporary screenshots"

@@ -216,9 +216,9 @@
     "semantic_hash": "761a086450c393e99c96ea260c3a1cd9"
   },
   "components/pages/KebijakanRektorPage.js": {
-    "mtime": 1790733951.4831066,
-    "seen": 1790733979.02648,
-    "ast_hash": "e5184113db7ad1dd7a1f268d97254f8b",
+    "mtime": 1790664820.750949,
+    "seen": 1790664930.8396347,
+    "ast_hash": "91e17c0444203fe03db375d179d9eb85",
     "semantic_hash": ""
   },
   "components/pages/KodeEtikPage.js": {
@@ -294,10 +294,10 @@
     "semantic_hash": "d8e202eebe9a032b674954d50f37bd62"
   },
   "dictionaries/kebijakan-rektor.js": {
-    "mtime": 1790733898.9106288,
-    "seen": 1790733979.02648,
-    "ast_hash": "b0882a584ad5ae466449e2e1573cd62a",
-    "semantic_hash": ""
+    "mtime": 1790573330.654282,
+    "seen": 1790647343.2597332,
+    "ast_hash": "32f312ef742c8d6a2f1e30fb4288c18c",
+    "semantic_hash": "32f312ef742c8d6a2f1e30fb4288c18c"
   },
   "dictionaries/kode-etik.js": {
     "mtime": 1790573342.5067332,
@@ -342,9 +342,9 @@
     "semantic_hash": ""
   },
   ".claude/settings.local.json": {
-    "mtime": 1790733957.8709743,
-    "seen": 1790733979.02648,
-    "ast_hash": "00b3067db2fde3010e44024a8d3b68fe",
+    "mtime": 1790732852.931217,
+    "seen": 1790732866.5034065,
+    "ast_hash": "72a18992f5983edacf97da8d2c4c13ab",
     "semantic_hash": ""
   },
   "app/en/hubungi-kami/page.js": {
@@ -906,15 +906,15 @@
     "semantic_hash": ""
   },
   "components/pages/KebijakanWarekPage.js": {
-    "mtime": 1790733933.4771798,
-    "seen": 1790733979.02648,
-    "ast_hash": "8f165036a248a135d78283b82d23cff7",
+    "mtime": 1790664824.085627,
+    "seen": 1790664930.8396347,
+    "ast_hash": "bcd3a3e129ebc4872a6c1c5978bd26fe",
     "semantic_hash": ""
   },
   "dictionaries/kebijakan-warek.js": {
-    "mtime": 1790733883.3372114,
-    "seen": 1790733979.02648,
-    "ast_hash": "192b13666f311a4294eebc13a3352e7d",
+    "mtime": 1790663972.9724338,
+    "seen": 1790664363.9901366,
+    "ast_hash": "97297fb22f3cc29c98a7f9a3ac47d277",
     "semantic_hash": ""
   },
   "temporary screenshots/screenshot-1-kebijakan-warek-id.png": {

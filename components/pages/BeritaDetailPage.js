@@ -7,6 +7,8 @@ import { ArrowLeft, ArrowRight, CalendarBlank } from "@phosphor-icons/react/dist
 import { berita } from "@/dictionaries/berita";
 import { NAV_ITEMS, common } from "@/dictionaries/common";
 
+const asset = (name) => `/brand_assets/${encodeURIComponent(name)}`;
+
 export default function BeritaDetailPage({ locale, slug }) {
   const t = berita[locale];
   const nav = common[locale].nav;
@@ -43,14 +45,25 @@ export default function BeritaDetailPage({ locale, slug }) {
         </div>
 
         <div className="relative mt-6 aspect-[16/9] overflow-hidden rounded-xl shadow-card">
-          <Image
-            src={`https://placehold.co/1200x675/25283d/ffffff.png?text=${encodeURIComponent(item.category)}`}
-            alt=""
-            fill
-            unoptimized
-            sizes="(min-width: 1024px) 60vw, 90vw"
-            className="object-cover"
-          />
+          {item.images?.[0] ? (
+            <Image
+              src={asset(item.images[0])}
+              alt=""
+              fill
+              sizes="(min-width: 1024px) 60vw, 90vw"
+              className="object-cover"
+              priority
+            />
+          ) : (
+            <Image
+              src={`https://placehold.co/1200x675/25283d/ffffff.png?text=${encodeURIComponent(item.category)}`}
+              alt=""
+              fill
+              unoptimized
+              sizes="(min-width: 1024px) 60vw, 90vw"
+              className="object-cover"
+            />
+          )}
         </div>
 
         <div className="mt-8 flex flex-col gap-5">
@@ -60,6 +73,12 @@ export default function BeritaDetailPage({ locale, slug }) {
             </p>
           ))}
         </div>
+
+        {item.images?.[1] && (
+          <div className="relative mt-8 aspect-[16/9] overflow-hidden rounded-xl shadow-card">
+            <Image src={asset(item.images[1])} alt="" fill sizes="(min-width: 1024px) 60vw, 90vw" className="object-cover" />
+          </div>
+        )}
 
         <Link
           href={`${base}/pengumuman/berita`}
@@ -85,14 +104,24 @@ export default function BeritaDetailPage({ locale, slug }) {
                   className="group flex flex-col overflow-hidden rounded-xl border border-border bg-surface shadow-card transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-card-hover"
                 >
                   <div className="relative aspect-[16/10] overflow-hidden">
-                    <Image
-                      src={`https://placehold.co/640x400/25283d/ffffff.png?text=${encodeURIComponent(entry.category)}`}
-                      alt=""
-                      fill
-                      unoptimized
-                      sizes="(min-width: 1024px) 30vw, 90vw"
-                      className="object-cover transition-transform duration-500 group-hover:scale-105"
-                    />
+                    {entry.images?.[0] ? (
+                      <Image
+                        src={asset(entry.images[0])}
+                        alt=""
+                        fill
+                        sizes="(min-width: 1024px) 30vw, 90vw"
+                        className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
+                    ) : (
+                      <Image
+                        src={`https://placehold.co/640x400/25283d/ffffff.png?text=${encodeURIComponent(entry.category)}`}
+                        alt=""
+                        fill
+                        unoptimized
+                        sizes="(min-width: 1024px) 30vw, 90vw"
+                        className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
+                    )}
                     <span className="absolute left-3 top-3 rounded-full bg-secondary px-3 py-1 font-heading text-xs font-bold text-white">
                       {entry.category}
                     </span>

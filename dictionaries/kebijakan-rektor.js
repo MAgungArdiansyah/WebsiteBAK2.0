@@ -6,33 +6,13 @@ export const kebijakanRektor = {
       "Kumpulan kebijakan dan surat keputusan Rektor yang menjadi landasan penyelenggaraan akademik dan kemahasiswaan di Universitas Pakuan.",
     issuedLabel: "Ditetapkan",
     viewLabel: "Lihat Kebijakan",
-    items: [
-      {
-        docNumber: "SK/Rektor/10/2025",
-        title: "Kebijakan Akademik Universitas Pakuan",
-        date: "1 Sep 2025",
-      },
-      {
-        docNumber: "SK/Rektor/11/2025",
-        title: "Kebijakan Mutu dan Penjaminan Mutu Internal",
-        date: "1 Sep 2025",
-      },
-      {
-        docNumber: "SK/Rektor/04/2024",
-        title: "Kebijakan Pengelolaan Beasiswa Internal",
-        date: "12 Jul 2024",
-      },
-      {
-        docNumber: "SK/Rektor/07/2024",
-        title: "Kebijakan Penggunaan Sarana dan Prasarana Kampus",
-        date: "20 Mar 2024",
-      },
-      {
-        docNumber: "SK/Rektor/02/2023",
-        title: "Kebijakan Anti Kekerasan Seksual di Lingkungan Kampus",
-        date: "15 Feb 2023",
-      },
-    ],
+    emptyState: {
+      title: "Data Belum Tersedia",
+      message: "Kebijakan Rektor untuk saat ini belum tersedia dan akan segera ditambahkan.",
+    },
+    // Belum ada data. Tambahkan item baru di sini dengan format:
+    // { docNumber: "SK/Rektor/xx/2026", title: "...", date: "...", href: "https://..." (opsional) }
+    items: [],
   },
   en: {
     eyebrow: "Policy",
@@ -41,32 +21,12 @@ export const kebijakanRektor = {
       "A collection of Rector policies and decisions that form the basis for academic and student administration at Universitas Pakuan.",
     issuedLabel: "Issued",
     viewLabel: "View Policy",
-    items: [
-      {
-        docNumber: "SK/Rektor/10/2025",
-        title: "Universitas Pakuan Academic Policy",
-        date: "Sep 1, 2025",
-      },
-      {
-        docNumber: "SK/Rektor/11/2025",
-        title: "Quality and Internal Quality Assurance Policy",
-        date: "Sep 1, 2025",
-      },
-      {
-        docNumber: "SK/Rektor/04/2024",
-        title: "Internal Scholarship Management Policy",
-        date: "Jul 12, 2024",
-      },
-      {
-        docNumber: "SK/Rektor/07/2024",
-        title: "Campus Facilities and Infrastructure Use Policy",
-        date: "Mar 20, 2024",
-      },
-      {
-        docNumber: "SK/Rektor/02/2023",
-        title: "Anti Sexual-Violence Policy on Campus",
-        date: "Feb 15, 2023",
-      },
-    ],
+    emptyState: {
+      title: "Data Not Available Yet",
+      message: "Rector policies aren't available yet and will be added soon.",
+    },
+    // No data yet. Add new items here with the shape:
+    // { docNumber: "SK/Rektor/xx/2026", title: "...", date: "...", href: "https://..." (optional) }
+    items: [],
   },
 };
