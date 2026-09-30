@@ -44,7 +44,11 @@
       "Bash(node test-glow.mjs)",
       "Bash(node screenshot.mjs http://localhost:3000/kebijakan/kebijakan-rektor empty-rektor)",
       "Bash(node screenshot.mjs http://localhost:3000/kebijakan/kebijakan-warek empty-warek)",
-      "Bash(node screenshot.mjs http://localhost:3000/en/kebijakan/kebijakan-rektor empty-rektor-en)"
+      "Bash(node screenshot.mjs http://localhost:3000/en/kebijakan/kebijakan-rektor empty-rektor-en)",
+      "Bash(npx skills *)",
+      "Bash(npx skills@latest add emilkowalski/skills)",
+      "Bash(node test-nav-anim.mjs)",
+      "Bash(node screenshot.mjs http://localhost:3000 mobile-menu-anim-check 390 700)"
     ],
     "additionalDirectories": [
       "C:\\Users\\BAAK_PC02\\Documents\\Kerja\\Code\\claudewebtest\\temporary screenshots"

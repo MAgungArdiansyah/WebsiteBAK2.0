@@ -29,6 +29,8 @@ export default function Header() {
   const locale = getLocale(pathname);
   const t = common[locale];
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [mobileRendered, setMobileRendered] = useState(false);
+  const [mobileVisible, setMobileVisible] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
   const navRef = useRef(null);
   const headerRef = useRef(null);
@@ -37,6 +39,17 @@ export default function Header() {
     setMobileOpen(false);
     setOpenDropdown(null);
   }, [pathname]);
+
+  useEffect(() => {
+    if (mobileOpen) {
+      setMobileRendered(true);
+      const raf = requestAnimationFrame(() => setMobileVisible(true));
+      return () => cancelAnimationFrame(raf);
+    }
+    setMobileVisible(false);
+    const timer = setTimeout(() => setMobileRendered(false), 200);
+    return () => clearTimeout(timer);
+  }, [mobileOpen]);
 
   useEffect(() => {
     function onClickOutside(e) {
@@ -200,10 +213,12 @@ export default function Header() {
         </button>
       </div>
 
-      {mobileOpen && (
+      {mobileRendered && (
         <div
           id="mobile-menu"
-          className="absolute inset-x-0 top-full max-h-[calc(100dvh_-_4.5rem)] overflow-y-auto overscroll-contain border-t border-border bg-surface shadow-floating lg:hidden"
+          className={`absolute inset-x-0 top-full max-h-[calc(100dvh_-_4.5rem)] origin-top overflow-y-auto overscroll-contain border-t border-border bg-surface shadow-floating transition-[opacity,transform] duration-200 ease-[cubic-bezier(0.16,1,0.3,1)] lg:hidden ${
+            mobileVisible ? "translate-y-0 opacity-100" : "-translate-y-2 opacity-0"
+          }`}
         >
           <div className="mx-auto max-w-6xl px-4 py-3 sm:px-6">
             <nav className="flex flex-col gap-1">
@@ -267,32 +282,41 @@ function MobileNavItem({ item, label, t, locale, isActive }) {
           className={`transition-transform duration-200 ${open ? "-rotate-180" : ""}`}
         />
       </button>
-      {open && (
-        <div className="ml-3 flex flex-col gap-0.5 border-l border-border pl-3">
-          {item.children.map((child) =>
-            child.external ? (
-              <a
-                key={child.key}
-                href={child.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-1.5 rounded-md px-3 py-2 text-sm text-ink/70"
-              >
-                {t.nav[child.key]}
-                <ArrowSquareOut size={13} aria-hidden="true" className="shrink-0 text-ink/35" />
-              </a>
-            ) : (
-              <Link
-                key={child.key}
-                href={localizeHref(child.href, locale)}
-                className="rounded-md px-3 py-2 text-sm text-ink/70"
-              >
-                {t.nav[child.key]}
-              </Link>
-            )
-          )}
+      <div
+        className="grid transition-[grid-template-rows] duration-300 ease-[cubic-bezier(0.16,1,0.3,1)]"
+        style={{ gridTemplateRows: open ? "1fr" : "0fr" }}
+      >
+        <div className="overflow-hidden">
+          <div
+            className={`ml-3 flex flex-col gap-0.5 border-l border-border pl-3 pt-0.5 transition-opacity duration-300 ${
+              open ? "opacity-100" : "opacity-0"
+            }`}
+          >
+            {item.children.map((child) =>
+              child.external ? (
+                <a
+                  key={child.key}
+                  href={child.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1.5 rounded-md px-3 py-2 text-sm text-ink/70"
+                >
+                  {t.nav[child.key]}
+                  <ArrowSquareOut size={13} aria-hidden="true" className="shrink-0 text-ink/35" />
+                </a>
+              ) : (
+                <Link
+                  key={child.key}
+                  href={localizeHref(child.href, locale)}
+                  className="rounded-md px-3 py-2 text-sm text-ink/70"
+                >
+                  {t.nav[child.key]}
+                </Link>
+              )
+            )}
+          </div>
         </div>
-      )}
+      </div>
     </div>
   );
 }
