@@ -4,7 +4,7 @@ import { useState } from "react";
 import PageHeader from "@/components/layout/PageHeader";
 import SectionTabs from "@/components/layout/SectionTabs";
 import FileNoticeModal from "@/components/ui/FileNoticeModal";
-import { DownloadSimple, FileDoc, FilePdf } from "@phosphor-icons/react";
+import { DownloadSimple, FileDoc, FilePdf, Info } from "@phosphor-icons/react";
 import { formulir } from "@/dictionaries/formulir";
 import { common } from "@/dictionaries/common";
 
@@ -41,6 +41,14 @@ export default function FormulirPage({ locale }) {
           {t.groups.map((group) => (
             <div key={group.category}>
               <h2 className="font-heading text-lg font-extrabold text-ink">{group.category}</h2>
+              {group.files.length === 0 ? (
+                <div className="mt-4 flex items-center gap-3 rounded-xl border border-border bg-surface px-5 py-6 shadow-card">
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-primary">
+                    <Info size={20} weight="bold" aria-hidden="true" />
+                  </span>
+                  <p className="text-sm leading-6 text-ink/60">{t.emptyGroupMessage}</p>
+                </div>
+              ) : (
               <div className="mt-4 divide-y divide-border overflow-hidden rounded-xl border border-border bg-surface shadow-card">
                 {group.files.map((file) => {
                   const Icon = file.type === "DOCX" ? FileDoc : FilePdf;
@@ -82,6 +90,7 @@ export default function FormulirPage({ locale }) {
                   );
                 })}
               </div>
+              )}
             </div>
           ))}
         </div>

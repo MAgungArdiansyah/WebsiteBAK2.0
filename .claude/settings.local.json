@@ -66,7 +66,21 @@
       "Bash(node screenshot.mjs http://localhost:3000/hubungi-kami hubungi-hours 1280 900)",
       "Bash(node screenshot.mjs http://localhost:3000/hubungi-kami hubungi-hours-mobile 390 1400)",
       "Bash(node screenshot.mjs http://localhost:3000/hubungi-kami hubungi-hours-v2 1280 900)",
-      "Bash(node screenshot.mjs http://localhost:3000/hubungi-kami hubungi-hours-bigger 1280 700)"
+      "Bash(node screenshot.mjs http://localhost:3000/hubungi-kami hubungi-hours-bigger 1280 700)",
+      "Bash(node screenshot.mjs http://localhost:3000/galeri/magang-mahasiswa-batch-2-bak-unpak-2026 magang-batch2 1280 1600)",
+      "Bash(python3 -c \"import PIL; print\\('PIL ok', PIL.__version__\\)\")",
+      "Bash(python -c \"import PIL; print\\('PIL ok', PIL.__version__\\)\")",
+      "Bash(mkdir -p \"C:/Users/BAAK_P~1/AppData/Local/Temp/claude/c--Users-BAAK-PC02-Documents-Kerja-Code-claudewebtest/774c0193-db63-48a0-8756-23eb1af9dfe7/scratchpad\")",
+      "Bash(node screenshot.mjs http://localhost:3000/galeri/magang-mahasiswa-batch-2-bak-unpak-2026 magang-batch2-fixed 1280 1200)",
+      "Bash(node screenshot.mjs http://localhost:3000/galeri/magang-mahasiswa-batch-2-bak-unpak-2026 magang-batch2-fixed2 1280 1200)",
+      "Bash(powershell -NoProfile -Command 'Get-CimInstance Win32_Process -Filter \"name = '\\\\''node.exe'\\\\''\" | Where-Object { $_.CommandLine -like '\\\\''*next dev*'\\\\'' -or $_.CommandLine -like '\\\\''*next-server*'\\\\'' } | ForEach-Object { Write-Output \\($_.ProcessId\\); Stop-Process -Id $_.ProcessId -Force }')",
+      "Bash(netstat -ano)",
+      "Bash(taskkill //PID 25376 //F)",
+      "Bash(node screenshot.mjs http://localhost:3000/galeri/magang-mahasiswa-batch-2-bak-unpak-2026 magang-batch2-fixed3 1280 1200)",
+      "Bash(certutil -hashfile \"public/brand_assets/magang_della.jpeg\" MD5)",
+      "Bash(curl -s \"http://localhost:3000/brand_assets/magang_della.jpeg\" -o /tmp/raw_check.jpeg)",
+      "Bash(node screenshot.mjs http://localhost:3000/galeri/magang-mahasiswa-batch-2-bak-unpak-2026 magang-batch2-final 1280 1200)",
+      "Bash(taskkill //PID 6648 //F)"
     ],
     "additionalDirectories": [
       "C:\\Users\\BAAK_PC02\\Documents\\Kerja\\Code\\claudewebtest\\temporary screenshots"

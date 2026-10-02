@@ -56,6 +56,38 @@ export const galeri = {
     },
     items: [
       {
+        slug: "magang-mahasiswa-batch-2-bak-unpak-2026",
+        category: "Kegiatan Kampus",
+        date: "2 Okt 2026",
+        title: "Mahasiswa Magang Batch 2 di BAK Universitas Pakuan",
+        excerpt:
+          "Program magang mahasiswa Batch 2 di Biro Akademik dan Kemahasiswaan (BAK) Universitas Pakuan telah berjalan dengan lancar. BAK mengucapkan terima kasih kepada seluruh peserta dan mendoakan kesuksesan mereka ke depannya.",
+        body: [
+          "Program magang mahasiswa Batch 2 di Biro Akademik dan Kemahasiswaan (BAK) Universitas Pakuan telah berjalan dengan lancar. Selama masa magang, para peserta dilibatkan langsung dalam berbagai aktivitas administrasi akademik dan kemahasiswaan di lingkungan BAK.",
+          "Pada kesempatan ini, BAK menyampaikan terima kasih yang sebesar-besarnya kepada seluruh mahasiswa yang telah bersedia meluangkan waktu dan tenaga untuk mengikuti program magang kali ini. Semangat dan dedikasi yang ditunjukkan selama masa magang menjadi bagian penting dalam kelancaran pelaksanaan program ini.",
+          "Besar harapan kami agar ilmu dan pengalaman yang diperoleh selama magang di BAK dapat menjadi bekal yang bermanfaat ketika memasuki dunia kerja kelak.",
+          "Selamat dan sukses selalu untuk seluruh mahasiswa magang Batch 2. Semoga langkah ke depan senantiasa dimudahkan dan membawa keberkahan.",
+        ],
+        photos: [
+          {
+            file: asset("magang_batch2.jpeg"),
+            caption: "Foto bersama mahasiswa magang Batch 2 beserta pimpinan dan staf BAK Universitas Pakuan",
+          },
+          {
+            file: asset("magang_della.jpeg"),
+            caption: "Dianatusifa Dwi Cantika, peserta magang Batch 2 BAK Universitas Pakuan",
+          },
+          {
+            file: asset("magang_isel.jpeg"),
+            caption: "Siti Isella Oktavina Suwadi, peserta magang Batch 2 BAK Universitas Pakuan",
+          },
+          {
+            file: asset("magang_eja.jpeg"),
+            caption: "Fahreza Aqilla Afdhal, peserta magang Batch 2 BAK Universitas Pakuan",
+          },
+        ],
+      },
+      {
         slug: "wisuda-universitas-pakuan-periode-i-2026",
         category: "Wisuda",
         date: "14 Feb 2026",
@@ -171,6 +203,38 @@ export const galeri = {
       message: "There's no activity documentation for this category yet. Please choose another category.",
     },
     items: [
+      {
+        slug: "bak-internship-batch-2-students-2026",
+        category: "Campus Activities",
+        date: "Oct 2, 2026",
+        title: "Batch 2 Internship Students at Universitas Pakuan's BAK",
+        excerpt:
+          "The Batch 2 student internship program at Universitas Pakuan's Bureau of Academic and Student Affairs (BAK) ran smoothly. BAK thanks all participating students and wishes them continued success ahead.",
+        body: [
+          "The Batch 2 student internship program at Universitas Pakuan's Bureau of Academic and Student Affairs (BAK) ran smoothly. Throughout the internship, participants were directly involved in a range of academic and student administration activities within BAK.",
+          "On this occasion, BAK extends its deepest gratitude to all students who took the time and effort to take part in this internship program. The enthusiasm and dedication shown throughout the internship played an important part in the program's smooth running.",
+          "We sincerely hope the knowledge and experience gained during the internship at BAK will prove valuable once these students enter the workforce.",
+          "Congratulations and continued success to all Batch 2 interns. May your next steps ahead always be made easy and full of blessings.",
+        ],
+        photos: [
+          {
+            file: asset("magang_batch2.jpeg"),
+            caption: "Group photo of Batch 2 intern students with BAK Universitas Pakuan leadership and staff",
+          },
+          {
+            file: asset("magang_della.jpeg"),
+            caption: "Dianatusifa Dwi Cantika, Batch 2 intern at BAK Universitas Pakuan",
+          },
+          {
+            file: asset("magang_isel.jpeg"),
+            caption: "Siti Isella Oktavina Suwadi, Batch 2 intern at BAK Universitas Pakuan",
+          },
+          {
+            file: asset("magang_eja.jpeg"),
+            caption: "Fahreza Aqilla Afdhal, Batch 2 intern at BAK Universitas Pakuan",
+          },
+        ],
+      },
       {
         slug: "universitas-pakuan-graduation-period-i-2026",
         category: "Graduation",
