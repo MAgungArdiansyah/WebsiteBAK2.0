@@ -138,54 +138,6 @@ export const galeri = {
           { file: asset("Sertifikasi ISO - 4.jpeg"), caption: "Diskusi bersama pimpinan universitas dan perwakilan unit kerja" },
         ],
       },
-      // {
-      //   slug: "riset-dan-praktikum-mahasiswa",
-      //   category: "Kegiatan Kampus",
-      //   date: "18 Nov 2025",
-      //   title: "Kegiatan Riset dan Praktikum Mahasiswa",
-      //   excerpt: "Mahasiswa melaksanakan praktikum dan kegiatan riset di laboratorium kampus sebagai bagian dari penguatan kompetensi akademik.",
-      //   body: [
-      //     "Mahasiswa dari berbagai program studi rutin melaksanakan kegiatan praktikum dan riset di laboratorium kampus, mulai dari analisis larutan kimia hingga penyusunan laporan hasil penelitian.",
-      //     "Kegiatan semacam ini menjadi bagian penting dari kurikulum untuk memperkuat kompetensi riset mahasiswa sekaligus mempersiapkan mereka menghadapi tugas akhir maupun dunia kerja.",
-      //     "BAK mendukung kelancaran kegiatan akademik semacam ini melalui koordinasi jadwal dan administrasi yang berkaitan dengan kegiatan laboratorium dan riset mahasiswa.",
-      //   ],
-      //   photos: [
-      //     { file: asset("Riset.JPG"), caption: "Mahasiswa melakukan praktikum di laboratorium kimia" },
-      //     { file: asset("DSC05175.JPG"), caption: "Mahasiswa menyusun catatan penelitian di laboratorium riset" },
-      //   ],
-      // },
-      // {
-      //   slug: "magang-mahasiswa-radio-kampus",
-      //   category: "Kegiatan Kampus",
-      //   date: "5 Okt 2025",
-      //   title: "Magang Mahasiswa di Radio Kampus",
-      //   excerpt: "Mahasiswa mengikuti program magang penyiaran di studio Radio Kampus Universitas Pakuan.",
-      //   body: [
-      //     "Mahasiswa mengikuti program magang penyiaran di studio Radio Kampus Universitas Pakuan, mempelajari langsung teknik siaran dan produksi konten audio bersama para praktisi.",
-      //     "Program magang ini menjadi salah satu bentuk penerapan Merdeka Belajar Kampus Merdeka (MBKM), yang memberikan pengalaman kerja nyata sekaligus mengasah kepercayaan diri dan kemampuan komunikasi publik mahasiswa.",
-      //     "BAK memfasilitasi pengakuan kegiatan magang semacam ini ke dalam satuan kredit semester sesuai ketentuan program MBKM yang berlaku.",
-      //   ],
-      //   photos: [
-      //     { file: asset("Internship.JPG"), caption: "Mahasiswa magang di studio Radio Kampus Universitas Pakuan" },
-      //     { file: asset("Internship_01.jpg"), caption: "Sesi praktik siaran radio dalam program magang mahasiswa" },
-      //   ],
-      // },
-      // {
-      //   slug: "kuliah-tamu-dan-dosen-afiliasi",
-      //   category: "Kegiatan Kampus",
-      //   date: "22 Sep 2025",
-      //   title: "Kuliah Tamu dan Dosen Afiliasi",
-      //   excerpt: "Kuliah umum dan diskusi kelas bersama dosen tamu internasional serta dosen afiliasi Universitas Pakuan.",
-      //   body: [
-      //     "Universitas Pakuan secara berkala menghadirkan dosen tamu dari universitas mitra luar negeri dalam program Visiting Professor, memberikan kuliah umum yang memperluas wawasan akademik mahasiswa dan dosen.",
-      //     "Selain itu, dosen afiliasi yang berasal dari luar lingkungan akademik turut dilibatkan dalam sesi diskusi kelas untuk berbagi pengalaman dan perspektif praktis dari industri.",
-      //     "Kegiatan ini merupakan bagian dari upaya Universitas Pakuan memperkuat kualitas pembelajaran melalui kolaborasi akademik dan kerja sama institusional.",
-      //   ],
-      //   photos: [
-      //     { file: asset("visiting_prof.JPG"), caption: "Kuliah umum bersama dosen tamu internasional (visiting professor)" },
-      //     { file: asset("affiliate_prof.JPG"), caption: "Diskusi kelas bersama dosen afiliasi" },
-      //   ],
-      // },
     ],
   },
   en: {
