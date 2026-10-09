@@ -276,9 +276,9 @@
     "semantic_hash": ""
   },
   "dictionaries/common.js": {
-    "mtime": 1791338392.634807,
-    "seen": 1791519185.4213133,
-    "ast_hash": "c82f783bdb9117f129d44b25ec180653",
+    "mtime": 1790663987.5205722,
+    "seen": 1790664363.9901366,
+    "ast_hash": "78673de9cfec7cf091e119b8764a7967",
     "semantic_hash": ""
   },
   "dictionaries/formulir.js": {
@@ -288,9 +288,9 @@
     "semantic_hash": ""
   },
   "dictionaries/galeri.js": {
-    "mtime": 1791529513.1532226,
-    "seen": 1791529557.4569702,
-    "ast_hash": "661453d014bb38eb0e1d75a012a13723",
+    "mtime": 1790911844.5439067,
+    "seen": 1790912475.9744866,
+    "ast_hash": "05d0b675825f504ef2c2bae4ac5184fd",
     "semantic_hash": ""
   },
   "dictionaries/kebijakan-rektor.js": {
@@ -300,10 +300,10 @@
     "semantic_hash": ""
   },
   "dictionaries/kode-etik.js": {
-    "mtime": 1791519149.8652492,
-    "seen": 1791519185.4213133,
-    "ast_hash": "e3da0417ea92abf50bfd3fa2c685ac68",
-    "semantic_hash": ""
+    "mtime": 1790573342.5067332,
+    "seen": 1790647343.2597332,
+    "ast_hash": "c67a3dca623e098d169b49aa2caf51d5",
+    "semantic_hash": "c67a3dca623e098d169b49aa2caf51d5"
   },
   "dictionaries/rektor-warek.js": {
     "mtime": 1790742326.5133388,
@@ -312,9 +312,9 @@
     "semantic_hash": ""
   },
   "dictionaries/sop.js": {
-    "mtime": 1791529873.0055354,
-    "seen": 1791529891.206982,
-    "ast_hash": "c4d2cfc7f0ee2f462a2981ccde06a42a",
+    "mtime": 1790663162.0798087,
+    "seen": 1790663220.6121132,
+    "ast_hash": "331024f329f3d02bd65ba86674bd6e37",
     "semantic_hash": ""
   },
   "dictionaries/tata-tertib.js": {
@@ -1065,60 +1065,6 @@
     "mtime": 1790912195.7674506,
     "seen": 1790912475.9744866,
     "ast_hash": "595eeed2c5eb0c55e2356fd53b6ee25d",
-    "semantic_hash": ""
-  },
-  "public/brand_assets/Benchmarking Telkom University - 2.jpeg": {
-    "mtime": 1791503684.0,
-    "seen": 1791529557.4569702,
-    "ast_hash": "4120b1df593eca2fee4392e8a43d93a1",
-    "semantic_hash": ""
-  },
-  "public/brand_assets/Benchmarking Telkom University - 3.jpeg": {
-    "mtime": 1791503684.0,
-    "seen": 1791529557.4569702,
-    "ast_hash": "83479a79e0d252113a7fa208badc555d",
-    "semantic_hash": ""
-  },
-  "public/brand_assets/Benchmarking Telkom University.jpeg": {
-    "mtime": 1791503684.0,
-    "seen": 1791529557.4569702,
-    "ast_hash": "bb49b408d92032edb439518f23157799",
-    "semantic_hash": ""
-  },
-  "public/brand_assets/Benchmarking UPI - 2.jpeg": {
-    "mtime": 1791503684.0,
-    "seen": 1791529557.4569702,
-    "ast_hash": "29a470e506b25988e6c5907addb0eef0",
-    "semantic_hash": ""
-  },
-  "public/brand_assets/Benchmarking UPI - 3.jpeg": {
-    "mtime": 1791503684.0,
-    "seen": 1791529557.4569702,
-    "ast_hash": "3b2d106f84d75f2b53cd4489fff6fb5b",
-    "semantic_hash": ""
-  },
-  "public/brand_assets/Benchmarking UPI.jpeg": {
-    "mtime": 1791503684.0,
-    "seen": 1791529557.4569702,
-    "ast_hash": "3ae0cb2f4dc0e156fd97446a00dcdcec",
-    "semantic_hash": ""
-  },
-  "temporary screenshots/screenshot-1-benchmarking.png": {
-    "mtime": 1791529528.504876,
-    "seen": 1791529557.4569702,
-    "ast_hash": "ae29348ea8c0ef5a0a26858612af0dec",
-    "semantic_hash": ""
-  },
-  "temporary screenshots/screenshot-1-galeri-list.png": {
-    "mtime": 1791529538.1613522,
-    "seen": 1791529557.4569702,
-    "ast_hash": "6d05ed95cf62a030275807dccc48010b",
-    "semantic_hash": ""
-  },
-  "temporary screenshots/screenshot-1-sop-exchange.png": {
-    "mtime": 1791529882.4535048,
-    "seen": 1791529891.206982,
-    "ast_hash": "4e08510badb93312c3e16b9cb8e9a173",
     "semantic_hash": ""
   }
 }

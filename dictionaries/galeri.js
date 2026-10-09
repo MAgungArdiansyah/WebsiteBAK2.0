@@ -56,6 +56,35 @@ export const galeri = {
     },
     items: [
       {
+        slug: "benchmarking-internasionalisasi-akademik-telkom-upi-2025",
+        category: "Kegiatan Kampus",
+        date: "31 Okt 2025",
+        title: "BAK Universitas Pakuan Benchmarking Internasionalisasi Akademik ke Telkom University dan UPI",
+        excerpt:
+          "Biro Akademik dan Kemahasiswaan (BAK) Universitas Pakuan melaksanakan kegiatan benchmarking internasionalisasi akademik ke Telkom University dan Universitas Pendidikan Indonesia (UPI) pada 28–29 Oktober 2025 untuk mempelajari praktik pengelolaan mahasiswa internasional.",
+        body: [
+          "BANDUNG – Biro Akademik dan Kemahasiswaan (BAK) Universitas Pakuan melaksanakan kegiatan benchmarking internasionalisasi akademik ke Telkom University dan Universitas Pendidikan Indonesia (UPI) pada 28–29 Oktober 2025. Kegiatan ini untuk mempelajari praktik pengelolaan mahasiswa internasional, mulai dari penerimaan mahasiswa baru hingga layanan akademik.",
+          "Delegasi BAK Universitas Pakuan terdiri dari Dr. Atti Herawati, M.Pd., Boldson Herdianto Situmorang, S.Kom., M.M.S.I., Dias Nursifa, S.Ak., R.D. Putri Anugrah Kusumaningrat, S.I.Kom., Kartiwa, Novia Selviani, dan M. Agung Ardiansyah, S.Kom.",
+          "Belajar dari Telkom University",
+          "Di Telkom University, tim BAK diterima oleh Lia Yuldinawati, Ph.D. (Direktur Kerjasama Strategis dan Kantor Urusan Internasional), bersama Novie Susanti, Senna Tedjapurnama (Kepala Urusan Kerjasama Akademik), dan Galih Prihartanto.",
+          "Telkom University memaparkan bahwa penerimaan mahasiswa asing dikelola Kantor Urusan Internasional dan dipisahkan dari sistem penerimaan mahasiswa domestik. Pemisahan ini memudahkan pemantauan dan evaluasi sesuai ketentuan keimigrasian. Layanan akademik internasional juga dipisahkan dari layanan domestik melalui International Services.",
+          "Telkom University menyediakan kelas internasional berbahasa pengantar Inggris yang bisa diikuti mahasiswa asing maupun domestik. Programnya terdiri dari full degree (jenjang sarjana hingga doktor, termasuk pertukaran mahasiswa, mahasiswa pindahan, dan jalur RPL) serta non degree (short course, joint class, dan visit). Untuk pendampingan, tersedia program student buddy yang membantu mahasiswa asing mengenal budaya dan lingkungan Indonesia. Data mahasiswa asing juga terintegrasi dengan sistem akademik sehingga memudahkan fakultas dan program studi memantau dan melaporkan capaian akademik mereka.",
+          "Praktik Baik Universitas Pendidikan Indonesia",
+          "Di UPI, delegasi diterima oleh Dr. Rer. nat. Asep Supriatna, M.Si. (Direktur Direktorat Pendidikan), bersama Agus Sutiawan, S.E., Dian Herdiana, M.Pd., Prof. Eri Kurniawan, Ph.D., dan Siti Nurzihan Nabila.",
+          "UPI memaparkan sistem penerimaan mahasiswa asing yang juga terpisah dari mahasiswa reguler dan terhubung dengan Program Internasional UPI. Programnya meliputi conference, adjunct professor, summer program, educational leaders visiting scholars, student exchange, dan short course. UPI juga membuka kelas internasional berbahasa Inggris bagi mahasiswa asing maupun reguler. Mahasiswa asing dapat memanfaatkan beasiswa Darmasiswa RI, Kemitraan Negara Berkembang (KNB), AIMS, dan U to U.",
+          "Di bidang pemeringkatan, UPI menjalankan program World Class University (WCU) selama lima tahun (2021–2025). Pada 2021 program ini berfokus pada reputasi akademik, internasionalisasi, reputasi lulusan di mata pengguna, dan citra universitas. Pada 2022–2025, kegiatannya diperluas dengan student exchange inbound dan outbound, staff exchange, visiting professor, summer program, serta insentif kolaborasi publikasi internasional.",
+          "Kegiatan di kedua kampus ditutup dengan penyerahan cinderamata sebagai wujud terima kasih dan upaya mempererat hubungan antarinstitusi. Melalui benchmarking ini, BAK Universitas Pakuan diharapkan memperoleh referensi untuk memperkuat tata kelola dan layanan bagi mahasiswa internasional di lingkungan Universitas Pakuan.",
+        ],
+        photos: [
+          { file: asset("Benchmarking Telkom University.jpeg"), caption: "Delegasi BAK Universitas Pakuan di depan Gedung Telkom University, Bandung" },
+          { file: asset("Benchmarking Telkom University - 2.jpeg"), caption: "Sesi pemaparan Joint Short Course oleh Telkom University" },
+          { file: asset("Benchmarking Telkom University - 3.jpeg"), caption: "Foto bersama delegasi BAK dengan tim Telkom University" },
+          { file: asset("Benchmarking UPI.jpeg"), caption: "Delegasi BAK Universitas Pakuan di depan Gedung Pendidikan Universitas Pendidikan Indonesia (UPI)" },
+          { file: asset("Benchmarking UPI - 2.jpeg"), caption: "Foto bersama tim Direktorat Internasional Akademik (DIA) UPI" },
+          { file: asset("Benchmarking UPI - 3.jpeg"), caption: "Foto bersama delegasi BAK dengan jajaran pimpinan UPI" },
+        ],
+      },
+      {
         slug: "magang-mahasiswa-batch-2-bak-unpak-2026",
         category: "Kegiatan Kampus",
         date: "2 Okt 2026",
@@ -155,6 +184,35 @@ export const galeri = {
       message: "There's no activity documentation for this category yet. Please choose another category.",
     },
     items: [
+      {
+        slug: "bak-academic-internationalization-benchmarking-telkom-upi-2025",
+        category: "Campus Activities",
+        date: "Oct 31, 2025",
+        title: "BAK Universitas Pakuan Benchmarks Academic Internationalization at Telkom University and UPI",
+        excerpt:
+          "Universitas Pakuan's Bureau of Academic and Student Affairs (BAK) carried out an academic internationalization benchmarking visit to Telkom University and Universitas Pendidikan Indonesia (UPI) on October 28–29, 2025, to study international student management practices.",
+        body: [
+          "BANDUNG — Universitas Pakuan's Bureau of Academic and Student Affairs (BAK) carried out an academic internationalization benchmarking visit to Telkom University and Universitas Pendidikan Indonesia (UPI) on October 28–29, 2025. The visit was aimed at studying international student management practices, from new student admissions through to academic services.",
+          "The BAK Universitas Pakuan delegation consisted of Dr. Atti Herawati, M.Pd., Boldson Herdianto Situmorang, S.Kom., M.M.S.I., Dias Nursifa, S.Ak., R.D. Putri Anugrah Kusumaningrat, S.I.Kom., Kartiwa, Novia Selviani, and M. Agung Ardiansyah, S.Kom.",
+          "Learning from Telkom University",
+          "At Telkom University, the BAK team was received by Lia Yuldinawati, Ph.D. (Director of Strategic Partnerships and the International Affairs Office), together with Novie Susanti, Senna Tedjapurnama (Head of Academic Cooperation Affairs), and Galih Prihartanto.",
+          "Telkom University explained that admissions for international students are managed by its International Affairs Office and kept separate from the domestic admissions system. This separation makes it easier to monitor and evaluate students in line with immigration requirements. International academic services are also kept separate from domestic services through its International Services unit.",
+          "Telkom University offers English-medium international classes open to both international and domestic students. Its programs consist of full degree tracks (bachelor's through doctoral level, including student exchange, transfer students, and recognition of prior learning) and non-degree tracks (short courses, joint classes, and campus visits). A student buddy program is also available to help international students become familiar with Indonesian culture and campus life. International student data is integrated with the academic system, making it easier for faculties and study programs to monitor and report their academic progress.",
+          "Good Practices from Universitas Pendidikan Indonesia",
+          "At UPI, the delegation was received by Dr. Rer. nat. Asep Supriatna, M.Si. (Director of the Directorate of Education), together with Agus Sutiawan, S.E., Dian Herdiana, M.Pd., Prof. Eri Kurniawan, Ph.D., and Siti Nurzihan Nabila.",
+          "UPI explained that its admissions system for international students is likewise separate from regular students and is connected to UPI's International Program. Its programs include conferences, adjunct professorships, summer programs, educational leaders visiting scholars, student exchange, and short courses. UPI also offers English-medium international classes for both international and regular students. International students can access Darmasiswa RI, Developing Countries Partnership (KNB), AIMS, and U-to-U scholarships.",
+          "On the ranking front, UPI has run its World Class University (WCU) program over a five-year period (2021–2025). In 2021, the program focused on academic reputation, internationalization, employer reputation, and institutional image. From 2022–2025, activities expanded to include inbound and outbound student exchange, staff exchange, visiting professors, summer programs, and incentives for international publication collaboration.",
+          "The visits to both campuses closed with the exchange of mementos as a gesture of appreciation and to strengthen inter-institutional ties. Through this benchmarking visit, BAK Universitas Pakuan hopes to gain references for strengthening the governance and services provided to international students at Universitas Pakuan.",
+        ],
+        photos: [
+          { file: asset("Benchmarking Telkom University.jpeg"), caption: "The BAK Universitas Pakuan delegation in front of the Telkom University building, Bandung" },
+          { file: asset("Benchmarking Telkom University - 2.jpeg"), caption: "Joint Short Course presentation session by Telkom University" },
+          { file: asset("Benchmarking Telkom University - 3.jpeg"), caption: "Group photo of the BAK delegation with the Telkom University team" },
+          { file: asset("Benchmarking UPI.jpeg"), caption: "The BAK Universitas Pakuan delegation in front of the Education Building of Universitas Pendidikan Indonesia (UPI)" },
+          { file: asset("Benchmarking UPI - 2.jpeg"), caption: "Group photo with the International Academic Directorate (DIA) team at UPI" },
+          { file: asset("Benchmarking UPI - 3.jpeg"), caption: "Group photo of the BAK delegation with UPI leadership" },
+        ],
+      },
       {
         slug: "bak-internship-batch-2-students-2026",
         category: "Campus Activities",

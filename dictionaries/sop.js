@@ -172,6 +172,15 @@ export const sop = {
         href: "https://drive.google.com/file/d/11ECo_pSPtNnqTxmQB2JRurJ8dVFWcgz_/view?usp=drive_link",
       },
       {
+        category: "Kemahasiswaan",
+        docNumber: "SOP/BAK/22",
+        title: "SOP Pelaksanaan Student Exchange (Outbound)",
+        description:
+          "Prosedur pelaksanaan program pertukaran mahasiswa (student exchange) keluar (outbound) ke perguruan tinggi mitra.",
+        updated: "Okt 2025",
+        href: "https://drive.google.com/file/d/1LSUAkZBRozqSRlPOcaLcTeEhSPt1IkBi/view?usp=sharing",
+      },
+      {
         category: "Humas & Promosi",
         docNumber: "SOP/BAK/19",
         title: "SOP Pelaksanaan Pameran Kampus",
@@ -372,6 +381,15 @@ export const sop = {
           "Procedure for placing students into internship programs with businesses and industry.",
         updated: "Sep 2025",
         href: "https://drive.google.com/file/d/11ECo_pSPtNnqTxmQB2JRurJ8dVFWcgz_/view?usp=drive_link",
+      },
+      {
+        category: "Student Affairs",
+        docNumber: "SOP/BAK/22",
+        title: "Outbound Student Exchange SOP",
+        description:
+          "Procedure for organizing the outbound student exchange program to partner universities.",
+        updated: "Oct 2025",
+        href: "https://drive.google.com/file/d/1LSUAkZBRozqSRlPOcaLcTeEhSPt1IkBi/view?usp=sharing",
       },
       {
         category: "PR & Promotion",
