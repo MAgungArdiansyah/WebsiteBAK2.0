@@ -1,0 +1,1124 @@
+{
+  "app/en/galeri/[slug]/page.js": {
+    "mtime": 1790575555.775295,
+    "seen": 1790647343.2597332,
+    "ast_hash": "54859db04da5c2d5fb2012300707d846",
+    "semantic_hash": "54859db04da5c2d5fb2012300707d846"
+  },
+  "app/en/galeri/page.js": {
+    "mtime": 1790573654.2832825,
+    "seen": 1790647343.2597332,
+    "ast_hash": "f3f4ef25d65fba5b0e0663fb24a65441",
+    "semantic_hash": "f3f4ef25d65fba5b0e0663fb24a65441"
+  },
+  "app/en/kebijakan/kebijakan-rektor/page.js": {
+    "mtime": 1790573395.863788,
+    "seen": 1790647343.2597332,
+    "ast_hash": "47d24009a0d0fad416e490d9f8b48d7d",
+    "semantic_hash": "47d24009a0d0fad416e490d9f8b48d7d"
+  },
+  "app/en/kebijakan/kode-etik-mahasiswa/page.js": {
+    "mtime": 1790573401.694786,
+    "seen": 1790647343.2597332,
+    "ast_hash": "75d8226d6372ad3395176247156bea7f",
+    "semantic_hash": "75d8226d6372ad3395176247156bea7f"
+  },
+  "app/en/kebijakan/tata-tertib/page.js": {
+    "mtime": 1790573407.9114585,
+    "seen": 1790647343.2597332,
+    "ast_hash": "4a6f86d882c0e8407ca81597d8954448",
+    "semantic_hash": "4a6f86d882c0e8407ca81597d8954448"
+  },
+  "app/en/page.js": {
+    "mtime": 1790568082.5755525,
+    "seen": 1790647343.2597332,
+    "ast_hash": "726556a8cfc8868f715073fd379a9d6a",
+    "semantic_hash": "726556a8cfc8868f715073fd379a9d6a"
+  },
+  "app/en/pelayanan/formulir/page.js": {
+    "mtime": 1790570610.9302027,
+    "seen": 1790647343.2597332,
+    "ast_hash": "9b69075b3955d372b92385677a4ee817",
+    "semantic_hash": "9b69075b3955d372b92385677a4ee817"
+  },
+  "app/en/pelayanan/sop/page.js": {
+    "mtime": 1790570605.37215,
+    "seen": 1790647343.2597332,
+    "ast_hash": "0dee7e079df68425082c3b0bfc55fe95",
+    "semantic_hash": "0dee7e079df68425082c3b0bfc55fe95"
+  },
+  "app/en/pengumuman/berita/[slug]/page.js": {
+    "mtime": 1790574290.7091832,
+    "seen": 1790647343.2597332,
+    "ast_hash": "f58865a234759284742d8b283f8b9120",
+    "semantic_hash": "f58865a234759284742d8b283f8b9120"
+  },
+  "app/en/pengumuman/berita/page.js": {
+    "mtime": 1790571016.9541683,
+    "seen": 1790647343.2597332,
+    "ast_hash": "061a83329a20964258b6cf4b583111ad",
+    "semantic_hash": "061a83329a20964258b6cf4b583111ad"
+  },
+  "app/en/pengumuman/rektor-warek/page.js": {
+    "mtime": 1790571023.1726482,
+    "seen": 1790647343.2597332,
+    "ast_hash": "78155930982f5724093b9600429cd410",
+    "semantic_hash": "78155930982f5724093b9600429cd410"
+  },
+  "app/en/tentang-kami/page.js": {
+    "mtime": 1790577252.187126,
+    "seen": 1790647343.2597332,
+    "ast_hash": "268055fdfeb10441e6ee94d414398381",
+    "semantic_hash": "268055fdfeb10441e6ee94d414398381"
+  },
+  "app/galeri/[slug]/page.js": {
+    "mtime": 1790575552.340662,
+    "seen": 1790647343.2597332,
+    "ast_hash": "e64d36c8ff888907e0d06fe32ad236ea",
+    "semantic_hash": "e64d36c8ff888907e0d06fe32ad236ea"
+  },
+  "app/galeri/page.js": {
+    "mtime": 1790573650.9851289,
+    "seen": 1790647343.2597332,
+    "ast_hash": "fbb039f7a67e478ccf81a32d1c8d4d72",
+    "semantic_hash": "fbb039f7a67e478ccf81a32d1c8d4d72"
+  },
+  "app/kebijakan/kebijakan-rektor/page.js": {
+    "mtime": 1790573392.7497525,
+    "seen": 1790647343.2597332,
+    "ast_hash": "3f2c5a5f478c83ebe043fea39ecf0b38",
+    "semantic_hash": "3f2c5a5f478c83ebe043fea39ecf0b38"
+  },
+  "app/kebijakan/kode-etik-mahasiswa/page.js": {
+    "mtime": 1790573398.7575576,
+    "seen": 1790647343.2597332,
+    "ast_hash": "19bf739abab5f4be849c9f61ea237601",
+    "semantic_hash": "19bf739abab5f4be849c9f61ea237601"
+  },
+  "app/kebijakan/tata-tertib/page.js": {
+    "mtime": 1790573404.7493587,
+    "seen": 1790647343.2597332,
+    "ast_hash": "ff43cd60fa9e52baecefd85b20b8b337",
+    "semantic_hash": "ff43cd60fa9e52baecefd85b20b8b337"
+  },
+  "app/layout.js": {
+    "mtime": 1790573687.402486,
+    "seen": 1790647343.2597332,
+    "ast_hash": "97f4ef8eb3188d1314f82f819698224d",
+    "semantic_hash": "97f4ef8eb3188d1314f82f819698224d"
+  },
+  "app/page.js": {
+    "mtime": 1790568079.0111318,
+    "seen": 1790647343.2597332,
+    "ast_hash": "bc8e89a76bfba089047023adec067566",
+    "semantic_hash": "bc8e89a76bfba089047023adec067566"
+  },
+  "app/pelayanan/formulir/page.js": {
+    "mtime": 1790570608.1511366,
+    "seen": 1790647343.2597332,
+    "ast_hash": "5cc4245a0ab12b6d4a930aaf8997c69c",
+    "semantic_hash": "5cc4245a0ab12b6d4a930aaf8997c69c"
+  },
+  "app/pelayanan/sop/page.js": {
+    "mtime": 1790570602.611364,
+    "seen": 1790647343.2597332,
+    "ast_hash": "adef32fb4e65da6d1bd374ad5dc4855d",
+    "semantic_hash": "adef32fb4e65da6d1bd374ad5dc4855d"
+  },
+  "app/pengumuman/berita/[slug]/page.js": {
+    "mtime": 1790574287.030611,
+    "seen": 1790647343.2597332,
+    "ast_hash": "d1b38420a0f5d5c27af25a0d36482532",
+    "semantic_hash": "d1b38420a0f5d5c27af25a0d36482532"
+  },
+  "app/pengumuman/berita/page.js": {
+    "mtime": 1790571014.0707755,
+    "seen": 1790647343.2597332,
+    "ast_hash": "4c5f710b3b8620ac042fc165021eb6b0",
+    "semantic_hash": "4c5f710b3b8620ac042fc165021eb6b0"
+  },
+  "app/pengumuman/rektor-warek/page.js": {
+    "mtime": 1790571020.059363,
+    "seen": 1790647343.2597332,
+    "ast_hash": "d52e1a2d274fc49112274476aeaa55e9",
+    "semantic_hash": "d52e1a2d274fc49112274476aeaa55e9"
+  },
+  "app/tentang-kami/page.js": {
+    "mtime": 1790577248.86327,
+    "seen": 1790647343.2597332,
+    "ast_hash": "271419ab753f98043a2a37d122594791",
+    "semantic_hash": "271419ab753f98043a2a37d122594791"
+  },
+  "components/layout/Breadcrumb.js": {
+    "mtime": 1790570493.174328,
+    "seen": 1790647343.2597332,
+    "ast_hash": "456fa55ac402425b704a9649707ad1dd",
+    "semantic_hash": "456fa55ac402425b704a9649707ad1dd"
+  },
+  "components/layout/Footer.js": {
+    "mtime": 1790655709.0565176,
+    "seen": 1790662563.3893626,
+    "ast_hash": "b4b1518d3aa3e86a2cc7e15480b06ae8",
+    "semantic_hash": ""
+  },
+  "components/layout/Header.js": {
+    "mtime": 1790735957.0551186,
+    "seen": 1790737769.5594373,
+    "ast_hash": "a4c07eb420992c6b4a2fe11d0086f1b4",
+    "semantic_hash": ""
+  },
+  "components/layout/PageHeader.js": {
+    "mtime": 1790570498.182581,
+    "seen": 1790647343.2597332,
+    "ast_hash": "5a9d817672260bad246ec4174fcb3789",
+    "semantic_hash": "5a9d817672260bad246ec4174fcb3789"
+  },
+  "components/layout/SectionTabs.js": {
+    "mtime": 1790570946.5138502,
+    "seen": 1790647343.2597332,
+    "ast_hash": "127e04832cb82dc76770484b68ea9d74",
+    "semantic_hash": "127e04832cb82dc76770484b68ea9d74"
+  },
+  "components/pages/BerandaPage.js": {
+    "mtime": 1790732721.193897,
+    "seen": 1790732866.5034065,
+    "ast_hash": "cccf1f561cd7e647d00faf20f76c2fcb",
+    "semantic_hash": ""
+  },
+  "components/pages/BeritaDetailPage.js": {
+    "mtime": 1790740430.7035549,
+    "seen": 1790740592.588544,
+    "ast_hash": "a1212c8e65fc937da2039f7982eb4a2a",
+    "semantic_hash": ""
+  },
+  "components/pages/BeritaPage.js": {
+    "mtime": 1790739543.774405,
+    "seen": 1790739609.66617,
+    "ast_hash": "df040a7b9c1e91b7d5603b68113afb79",
+    "semantic_hash": ""
+  },
+  "components/pages/FormulirPage.js": {
+    "mtime": 1790912856.009171,
+    "seen": 1790912875.4326675,
+    "ast_hash": "61a4c24612068d29e08d3e72269cdc43",
+    "semantic_hash": ""
+  },
+  "components/pages/GaleriDetailPage.js": {
+    "mtime": 1790575539.5025938,
+    "seen": 1790647343.2597332,
+    "ast_hash": "915ffc28c9f2b4a488bc52ae9bec44bf",
+    "semantic_hash": "915ffc28c9f2b4a488bc52ae9bec44bf"
+  },
+  "components/pages/GaleriPage.js": {
+    "mtime": 1790739055.1214304,
+    "seen": 1790739304.3481188,
+    "ast_hash": "56dff8917590e527ac39890dfef4bfb6",
+    "semantic_hash": ""
+  },
+  "components/pages/KebijakanRektorPage.js": {
+    "mtime": 1790733951.4831066,
+    "seen": 1790733979.02648,
+    "ast_hash": "e5184113db7ad1dd7a1f268d97254f8b",
+    "semantic_hash": ""
+  },
+  "components/pages/KodeEtikPage.js": {
+    "mtime": 1790736662.0389862,
+    "seen": 1790737769.5594373,
+    "ast_hash": "1affaaa45ff59cfc396772393b3d474f",
+    "semantic_hash": ""
+  },
+  "components/pages/RektorWarekPage.js": {
+    "mtime": 1790742354.957587,
+    "seen": 1790742390.8400626,
+    "ast_hash": "cb23881ae8c2062efaf4f0c4b80867b7",
+    "semantic_hash": ""
+  },
+  "components/pages/SopPage.js": {
+    "mtime": 1790664814.0081673,
+    "seen": 1790664930.8396347,
+    "ast_hash": "11ac277600d88c50a12ad333c33cd9e0",
+    "semantic_hash": ""
+  },
+  "components/pages/TataTertibPage.js": {
+    "mtime": 1790736682.4611132,
+    "seen": 1790737769.5594373,
+    "ast_hash": "377e7e1c06cef9b45a50ba79bd0b1ae3",
+    "semantic_hash": ""
+  },
+  "components/pages/TentangKamiPage.js": {
+    "mtime": 1790676326.82179,
+    "seen": 1790676421.4588733,
+    "ast_hash": "5a0c836422b46fe1790cb18bb8be5d6e",
+    "semantic_hash": ""
+  },
+  "components/ui/Accordion.js": {
+    "mtime": 1790569169.8450403,
+    "seen": 1790647343.2597332,
+    "ast_hash": "7fa996ea8ea91fe78ee85f886f4270df",
+    "semantic_hash": "7fa996ea8ea91fe78ee85f886f4270df"
+  },
+  "components/ui/ActivityPhotoGrid.js": {
+    "mtime": 1790575525.669134,
+    "seen": 1790647343.2597332,
+    "ast_hash": "dd54f5721ce1c2541b9c9de328f8fe2a",
+    "semantic_hash": "dd54f5721ce1c2541b9c9de328f8fe2a"
+  },
+  "dictionaries/beranda.js": {
+    "mtime": 1790676633.2161703,
+    "seen": 1790732603.3581884,
+    "ast_hash": "b7ea2c4939600b30641f49b4512403c7",
+    "semantic_hash": ""
+  },
+  "dictionaries/berita.js": {
+    "mtime": 1790741726.2466857,
+    "seen": 1790741842.3731875,
+    "ast_hash": "188dec329272469c874eb05d3f88b0d7",
+    "semantic_hash": ""
+  },
+  "dictionaries/common.js": {
+    "mtime": 1791338392.634807,
+    "seen": 1791519185.4213133,
+    "ast_hash": "c82f783bdb9117f129d44b25ec180653",
+    "semantic_hash": ""
+  },
+  "dictionaries/formulir.js": {
+    "mtime": 1790912838.8126197,
+    "seen": 1790912875.4326675,
+    "ast_hash": "6102be258596b368c24c9bff4c9be4e6",
+    "semantic_hash": ""
+  },
+  "dictionaries/galeri.js": {
+    "mtime": 1791529513.1532226,
+    "seen": 1791529557.4569702,
+    "ast_hash": "661453d014bb38eb0e1d75a012a13723",
+    "semantic_hash": ""
+  },
+  "dictionaries/kebijakan-rektor.js": {
+    "mtime": 1790733898.9106288,
+    "seen": 1790733979.02648,
+    "ast_hash": "b0882a584ad5ae466449e2e1573cd62a",
+    "semantic_hash": ""
+  },
+  "dictionaries/kode-etik.js": {
+    "mtime": 1791519149.8652492,
+    "seen": 1791519185.4213133,
+    "ast_hash": "e3da0417ea92abf50bfd3fa2c685ac68",
+    "semantic_hash": ""
+  },
+  "dictionaries/rektor-warek.js": {
+    "mtime": 1790742326.5133388,
+    "seen": 1790742390.8400626,
+    "ast_hash": "6622d6bce6f817e7be51ba065b3b1fd2",
+    "semantic_hash": ""
+  },
+  "dictionaries/sop.js": {
+    "mtime": 1791529873.0055354,
+    "seen": 1791529891.206982,
+    "ast_hash": "c4d2cfc7f0ee2f462a2981ccde06a42a",
+    "semantic_hash": ""
+  },
+  "dictionaries/tata-tertib.js": {
+    "mtime": 1790573352.6040356,
+    "seen": 1790647343.2597332,
+    "ast_hash": "0045b760d9fad2b48120041f81a85403",
+    "semantic_hash": "0045b760d9fad2b48120041f81a85403"
+  },
+  "dictionaries/tentang-kami.js": {
+    "mtime": 1790742107.4298532,
+    "seen": 1790742158.7652667,
+    "ast_hash": "2cc26d8995ba0cb731280c2567f33083",
+    "semantic_hash": ""
+  },
+  "app/icon.png": {
+    "mtime": 1790580466.0119836,
+    "seen": 1790647343.2597332,
+    "ast_hash": "3c907082047ebd0fc45302223b72c112",
+    "semantic_hash": "3c907082047ebd0fc45302223b72c112"
+  },
+  ".claude/settings.json": {
+    "mtime": 1790645117.993372,
+    "seen": 1790650162.2945337,
+    "ast_hash": "c72b55a12e7641e0e87707e4cf7ccded",
+    "semantic_hash": ""
+  },
+  ".claude/settings.local.json": {
+    "mtime": 1790912437.0908966,
+    "seen": 1790912475.9744866,
+    "ast_hash": "4a3bd16ceae9e38f0c124912ea1c5b08",
+    "semantic_hash": ""
+  },
+  "app/en/hubungi-kami/page.js": {
+    "mtime": 1790650009.6743622,
+    "seen": 1790650162.2945337,
+    "ast_hash": "d8ba40e39465fab4be972113ebb1a3be",
+    "semantic_hash": ""
+  },
+  "app/hubungi-kami/page.js": {
+    "mtime": 1790650006.7497647,
+    "seen": 1790650162.2945337,
+    "ast_hash": "45cda96a60217e90a0e69c6a41f44c8d",
+    "semantic_hash": ""
+  },
+  "components/pages/HubungiKamiPage.js": {
+    "mtime": 1790742657.0286064,
+    "seen": 1790742689.4119232,
+    "ast_hash": "aac02669eaf7173c6480340f1d7fc984",
+    "semantic_hash": ""
+  },
+  "dictionaries/hubungi-kami.js": {
+    "mtime": 1790742599.3097775,
+    "seen": 1790742628.1499636,
+    "ast_hash": "bf6375c548f195d6d3c73f6676ecd6cf",
+    "semantic_hash": ""
+  },
+  "jsconfig.json": {
+    "mtime": 1790568069.8091488,
+    "seen": 1790650162.2945337,
+    "ast_hash": "1785e71c7510902b04f35784b434ec4b",
+    "semantic_hash": ""
+  },
+  "lib/contact.js": {
+    "mtime": 1790649952.711806,
+    "seen": 1790650162.2945337,
+    "ast_hash": "80d4ee0ab3cbd36791d77b91edeebb0d",
+    "semantic_hash": ""
+  },
+  "next.config.mjs": {
+    "mtime": 1790568060.6176393,
+    "seen": 1790650162.2945337,
+    "ast_hash": "b2f81c75c6b9b3e2fe0554680d7eb513",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1790568244.3889709,
+    "seen": 1790650162.2945337,
+    "ast_hash": "6483369d67204fd0f34b6ccde85c7d10",
+    "semantic_hash": ""
+  },
+  "postcss.config.mjs": {
+    "mtime": 1790567793.8150322,
+    "seen": 1790650162.2945337,
+    "ast_hash": "0f8aa602547b154dc06be77b007c51d2",
+    "semantic_hash": ""
+  },
+  "screenshot.mjs": {
+    "mtime": 1789096178.561557,
+    "seen": 1790650162.2945337,
+    "ast_hash": "5694b0952f6bef3dc3d5101af4416a55",
+    "semantic_hash": ""
+  },
+  "serve.mjs": {
+    "mtime": 1789096172.4048808,
+    "seen": 1790650162.2945337,
+    "ast_hash": "37294d8d106fab5671a47af24406be19",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1790645117.993372,
+    "seen": 1790650162.2945337,
+    "ast_hash": "c708d4347fde175d3de55987a78fa47b",
+    "semantic_hash": ""
+  },
+  "brand_assets/brand_guideline.txt": {
+    "mtime": 1790569550.940822,
+    "seen": 1790650162.2945337,
+    "ast_hash": "fc380bf0c632575fdef2eb440ff28ee4",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1790561897.0936675,
+    "seen": 1790650162.2945337,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/brand_guideline.txt": {
+    "mtime": 1790567930.805009,
+    "seen": 1790650162.2945337,
+    "ast_hash": "75cf14429fe918469c78ff52cfe5a568",
+    "semantic_hash": ""
+  },
+  "brand_assets/DSC01388.JPG": {
+    "mtime": 1785975699.0121675,
+    "seen": 1790650162.2945337,
+    "ast_hash": "eb09dda66cb68c07f1dd5b8139c66a49",
+    "semantic_hash": ""
+  },
+  "brand_assets/DSC05175.JPG": {
+    "mtime": 1785976018.334777,
+    "seen": 1790650162.2945337,
+    "ast_hash": "57bfb6e99ad7087e8ebe66e1c24f5fcd",
+    "semantic_hash": ""
+  },
+  "brand_assets/IMG_20250226_232332.jpg": {
+    "mtime": 1783299265.1381998,
+    "seen": 1790650162.2945337,
+    "ast_hash": "03db567c36be695cf0462fd2d7a2db89",
+    "semantic_hash": ""
+  },
+  "brand_assets/Internship.JPG": {
+    "mtime": 1785976082.4864573,
+    "seen": 1790650162.2945337,
+    "ast_hash": "2cf9df7973e1deb78a30881ac948fc99",
+    "semantic_hash": ""
+  },
+  "brand_assets/Internship_01.jpg": {
+    "mtime": 1785976319.4357145,
+    "seen": 1790650162.2945337,
+    "ast_hash": "a02c00aa54dd8c44acc15426aa359de1",
+    "semantic_hash": ""
+  },
+  "brand_assets/Kepala Bagian Akademik.jpg": {
+    "mtime": 1788918668.9212265,
+    "seen": 1790650162.2945337,
+    "ast_hash": "ab7ecf94cd322980f8369cff7deb8dc7",
+    "semantic_hash": ""
+  },
+  "brand_assets/Kepala Bagian Kemahasiswaan.jpg": {
+    "mtime": 1788918728.8927376,
+    "seen": 1790650162.2945337,
+    "ast_hash": "8b592a09aff048fc96ce4d0eef9d1c39",
+    "semantic_hash": ""
+  },
+  "brand_assets/Kepala Biro Akademik.jpg": {
+    "mtime": 1788918705.6930337,
+    "seen": 1790650162.2945337,
+    "ast_hash": "cd5befef2247d39d1a4c12058fba3b4d",
+    "semantic_hash": ""
+  },
+  "brand_assets/Kepala Humas dan Promosi.jpg": {
+    "mtime": 1788919002.469892,
+    "seen": 1790650162.2945337,
+    "ast_hash": "ddd335c074efc81c75babd069271c0c6",
+    "semantic_hash": ""
+  },
+  "brand_assets/LogoUnpak.png": {
+    "mtime": 1750650722.3095565,
+    "seen": 1790650162.2945337,
+    "ast_hash": "3c907082047ebd0fc45302223b72c112",
+    "semantic_hash": ""
+  },
+  "brand_assets/Riset.JPG": {
+    "mtime": 1785976421.799248,
+    "seen": 1790650162.2945337,
+    "ast_hash": "34b38a58974626b55c443b0326cd63ca",
+    "semantic_hash": ""
+  },
+  "brand_assets/Scolarship.JPG": {
+    "mtime": 1785976507.4475627,
+    "seen": 1790650162.2945337,
+    "ast_hash": "9e63909f11112426529bab98f96c38e5",
+    "semantic_hash": ""
+  },
+  "brand_assets/Scolarship_01.jpg": {
+    "mtime": 1785976597.147059,
+    "seen": 1790650162.2945337,
+    "ast_hash": "0942a610ffe3c5767cca7627e9b0be38",
+    "semantic_hash": ""
+  },
+  "brand_assets/Staf - Kepala Bagian Kemahasiswaan.jpg": {
+    "mtime": 1788918765.3380544,
+    "seen": 1790650162.2945337,
+    "ast_hash": "36771b6682477bde4477632f15eced4f",
+    "semantic_hash": ""
+  },
+  "brand_assets/Wisuda 1.JPG": {
+    "mtime": 1783299286.716164,
+    "seen": 1790650162.2945337,
+    "ast_hash": "6417d31a6edf7cd021b5e433b16851a6",
+    "semantic_hash": ""
+  },
+  "brand_assets/affiliate_prof.JPG": {
+    "mtime": 1785976996.665581,
+    "seen": 1790650162.2945337,
+    "ast_hash": "d043d38732c6d97309c56642cf742101",
+    "semantic_hash": ""
+  },
+  "brand_assets/contactUs.png": {
+    "mtime": 1790649448.521925,
+    "seen": 1790650162.2945337,
+    "ast_hash": "2f44d2545a87b1a2aa39ebaed29041b9",
+    "semantic_hash": ""
+  },
+  "brand_assets/logo_bak.svg": {
+    "mtime": 1753844365.7051916,
+    "seen": 1790650162.2945337,
+    "ast_hash": "04d02059e4b9584cba4bc810c0382438",
+    "semantic_hash": ""
+  },
+  "brand_assets/visiting_prof.JPG": {
+    "mtime": 1785976822.3726468,
+    "seen": 1790650162.2945337,
+    "ast_hash": "19317911887867abe1484d1cf7205dee",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Wisuda 1.JPG": {
+    "mtime": 1790567930.9267077,
+    "seen": 1790650162.2945337,
+    "ast_hash": "6417d31a6edf7cd021b5e433b16851a6",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/affiliate_prof.JPG": {
+    "mtime": 1790567930.8592389,
+    "seen": 1790650162.2945337,
+    "ast_hash": "d043d38732c6d97309c56642cf742101",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/logo_bak.svg": {
+    "mtime": 1790567930.8896153,
+    "seen": 1790650162.2945337,
+    "ast_hash": "04d02059e4b9584cba4bc810c0382438",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-beranda-en-nunito.png": {
+    "mtime": 1790569432.3193984,
+    "seen": 1790650162.2945337,
+    "ast_hash": "db87418f52692a0dd9504093cdf89cbf",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-beranda-en.png": {
+    "mtime": 1790568353.4824274,
+    "seen": 1790650162.2945337,
+    "ast_hash": "568537844aafdf9ece9de019d7fb3eae",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-beranda-id-fixed.png": {
+    "mtime": 1790568477.8772936,
+    "seen": 1790650162.2945337,
+    "ast_hash": "00c6503fb8fa2c030d140d99f0146878",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-beranda-id.png": {
+    "mtime": 1790568274.5335515,
+    "seen": 1790650162.2945337,
+    "ast_hash": "5e8ff1367cc9db669519ad5b6d2534c0",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-beranda-mobile-nunito.png": {
+    "mtime": 1790569434.7257686,
+    "seen": 1790650162.2945337,
+    "ast_hash": "05584c01c26ffcc470cd3ea9e975c9c0",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-beranda-mobile.png": {
+    "mtime": 1790568356.5602634,
+    "seen": 1790650162.2945337,
+    "ast_hash": "2f80630e9dcb5e9f5cf1ab9b90fead20",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-beranda-nunito.png": {
+    "mtime": 1790569413.3378658,
+    "seen": 1790650162.2945337,
+    "ast_hash": "c9ca5d54b151204cfc2935a6ce5af4b4",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-berita-id.png": {
+    "mtime": 1790571094.7634132,
+    "seen": 1790650162.2945337,
+    "ast_hash": "72bc7ed8cc5826c8d77cdf2cdc4c6f9c",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-footer-wa.png": {
+    "mtime": 1790648894.0186331,
+    "seen": 1790650162.2945337,
+    "ast_hash": "6bc5293bba65e031f86d750d4ea66f66",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-formulir-id.png": {
+    "mtime": 1790570728.556674,
+    "seen": 1790650162.2945337,
+    "ast_hash": "6e4d117f72f9576e366c5905ec9c79b5",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-galeri-id.png": {
+    "mtime": 1790573695.2023928,
+    "seen": 1790650162.2945337,
+    "ast_hash": "5a5bc2b0f5f50eb13eef7f99b02dea7a",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-header-bak-only.png": {
+    "mtime": 1790569606.817002,
+    "seen": 1790650162.2945337,
+    "ast_hash": "909f8136b6d22134bb1aa283ccff793b",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-hours-updated.png": {
+    "mtime": 1790570394.9850183,
+    "seen": 1790650162.2945337,
+    "ast_hash": "64d526c77499ccaa763869cc255cf409",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-hubungi-kami-en.png": {
+    "mtime": 1790650148.736102,
+    "seen": 1790650162.2945337,
+    "ast_hash": "49851d769f8773a2b2b2b84f3b11bdb7",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-hubungi-kami-id.png": {
+    "mtime": 1790650082.9168825,
+    "seen": 1790650162.2945337,
+    "ast_hash": "ec4dc81a717255b60708b29d4529d48d",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-kebijakan-rektor.png": {
+    "mtime": 1790573450.9890912,
+    "seen": 1790650162.2945337,
+    "ast_hash": "a1f23f4421ba3750206bc0947401df97",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-kode-etik-en.png": {
+    "mtime": 1790573499.0093367,
+    "seen": 1790650162.2945337,
+    "ast_hash": "5356dd7091a944bc9b4ca58feef1cd22",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-kode-etik.png": {
+    "mtime": 1790573453.0965655,
+    "seen": 1790650162.2945337,
+    "ast_hash": "1ff23eb244f126591e7eb852a07af0f6",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-nav-1280.png": {
+    "mtime": 1790650130.6938822,
+    "seen": 1790650162.2945337,
+    "ast_hash": "5a40a4a501bdba32202abe2520bf69b3",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-nav-mobile.png": {
+    "mtime": 1790650132.7457838,
+    "seen": 1790650162.2945337,
+    "ast_hash": "3e05984b3ff17e543393ce01389c9f58",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-rektor-warek-id.png": {
+    "mtime": 1790571096.9607565,
+    "seen": 1790650162.2945337,
+    "ast_hash": "c76333048cd48f98e3638d11af1d01ed",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-sambutan-name.png": {
+    "mtime": 1790570098.254712,
+    "seen": 1790650162.2945337,
+    "ast_hash": "a6f4c8b07c5fd33c31583596ecb8dd4e",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-sop-id.png": {
+    "mtime": 1790570726.4905171,
+    "seen": 1790650162.2945337,
+    "ast_hash": "f182d31b5407368ee0a9630061b34637",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-tata-tertib.png": {
+    "mtime": 1790573455.1879303,
+    "seen": 1790650162.2945337,
+    "ast_hash": "a95f4efad00482b189f2fb98c4d7edaa",
+    "semantic_hash": ""
+  },
+  "components/ui/FileNoticeModal.js": {
+    "mtime": 1790653865.1157873,
+    "seen": 1790655416.8821023,
+    "ast_hash": "5719f296b542111b960f387eb5f7232e",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-hubungi-kami-contrast.png": {
+    "mtime": 1790651692.1617715,
+    "seen": 1790653520.930991,
+    "ast_hash": "46bb2b5cd52133b028a78bcf2e1eac30",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-hubungi-kami-dark-cards.png": {
+    "mtime": 1790652053.8728437,
+    "seen": 1790653520.930991,
+    "ast_hash": "0b3d3ec8d54b0ac89d804dfc032f4009",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-hubungi-kami-dark-rows.png": {
+    "mtime": 1790651797.349368,
+    "seen": 1790653520.930991,
+    "ast_hash": "d578d905d5f4f6f3ef4d54db1ad5aa66",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-hubungi-kami-light.png": {
+    "mtime": 1790650292.9139497,
+    "seen": 1790653520.930991,
+    "ast_hash": "c995ce87bfe64bcf28db5d74ffd4eb9f",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-hubungi-kami-uniform.png": {
+    "mtime": 1790651955.3724017,
+    "seen": 1790653520.930991,
+    "ast_hash": "d9b172b22e8dde1bdc84f27be379597c",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-sop-page.png": {
+    "mtime": 1790653447.3601375,
+    "seen": 1790653520.930991,
+    "ast_hash": "1b69320d0a2ab6a87f719b5a6b7c818d",
+    "semantic_hash": ""
+  },
+  "app/en/pelayanan/layanan-administratif/page.js": {
+    "mtime": 1790655090.255462,
+    "seen": 1790655416.8821023,
+    "ast_hash": "5f30eeb0f69df1cfa828ec53ac2dfac6",
+    "semantic_hash": ""
+  },
+  "app/pelayanan/layanan-administratif/page.js": {
+    "mtime": 1790655087.3650768,
+    "seen": 1790655416.8821023,
+    "ast_hash": "c9dae5b4fc9247368f66fe35042bc951",
+    "semantic_hash": ""
+  },
+  "components/pages/LayananAdministratifPage.js": {
+    "mtime": 1790664830.231338,
+    "seen": 1790664930.8396347,
+    "ast_hash": "f39d546452c2a8a503658c2edfaceda9",
+    "semantic_hash": ""
+  },
+  "dictionaries/layanan-administratif.js": {
+    "mtime": 1790663449.5978837,
+    "seen": 1790663481.5551412,
+    "ast_hash": "52fe71bb439dc6328b1632bfaebef338",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-layanan-administratif-en.png": {
+    "mtime": 1790655343.7713223,
+    "seen": 1790655416.8821023,
+    "ast_hash": "7ceb5467a31b7a7922ada92797cc69be",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-layanan-administratif-id.png": {
+    "mtime": 1790655108.0931022,
+    "seen": 1790655416.8821023,
+    "ast_hash": "8e487ed7792453abdbf95a3139ea3967",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-sop-outline-btn.png": {
+    "mtime": 1790653704.698634,
+    "seen": 1790655416.8821023,
+    "ast_hash": "e618238d269a299ee0ed2727be4e785f",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-sop-solid-restored.png": {
+    "mtime": 1790653806.5265815,
+    "seen": 1790655416.8821023,
+    "ast_hash": "1b69320d0a2ab6a87f719b5a6b7c818d",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-sop-new-content.png": {
+    "mtime": 1790655615.5440488,
+    "seen": 1790655628.5653622,
+    "ast_hash": "a165e2e5c7ed06708f4da536e53531ed",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-beranda-en-sync.png": {
+    "mtime": 1790656128.5259142,
+    "seen": 1790662563.3893626,
+    "ast_hash": "f63cf9021347afeb2174f450099cec18",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-footer-menu-short.png": {
+    "mtime": 1790655717.6973567,
+    "seen": 1790662563.3893626,
+    "ast_hash": "1a641ecfb61417f78365cc2a57245da7",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-sop-search-default.png": {
+    "mtime": 1790662532.1266284,
+    "seen": 1790662563.3893626,
+    "ast_hash": "f1e11ff5a8adf686b8d22f83cc15fb97",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-sop-real-links.png": {
+    "mtime": 1790663187.0523496,
+    "seen": 1790663220.6121132,
+    "ast_hash": "670e0e6903b8f99cf03461f327f4b421",
+    "semantic_hash": ""
+  },
+  "app/en/kebijakan/kebijakan-warek/page.js": {
+    "mtime": 1790664013.2673614,
+    "seen": 1790664363.9901366,
+    "ast_hash": "95b7174011e17102d8a6585947fac8d1",
+    "semantic_hash": ""
+  },
+  "app/kebijakan/kebijakan-warek/page.js": {
+    "mtime": 1790664009.8090818,
+    "seen": 1790664363.9901366,
+    "ast_hash": "db460017e6696e4578ad7ab2b75f9421",
+    "semantic_hash": ""
+  },
+  "components/pages/KebijakanWarekPage.js": {
+    "mtime": 1790733933.4771798,
+    "seen": 1790733979.02648,
+    "ast_hash": "8f165036a248a135d78283b82d23cff7",
+    "semantic_hash": ""
+  },
+  "dictionaries/kebijakan-warek.js": {
+    "mtime": 1790733883.3372114,
+    "seen": 1790733979.02648,
+    "ast_hash": "192b13666f311a4294eebc13a3352e7d",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-kebijakan-warek-id.png": {
+    "mtime": 1790664257.7799575,
+    "seen": 1790664363.9901366,
+    "ast_hash": "5811ee2739764744987c2511944d9c64",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-desktop-sop-check.png": {
+    "mtime": 1790664921.6073034,
+    "seen": 1790664930.8396347,
+    "ast_hash": "f694491e947a7de6d1c3d63401f6abcd",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-mobile-la-wide.png": {
+    "mtime": 1790664855.9626505,
+    "seen": 1790664930.8396347,
+    "ast_hash": "6de5d515964ecb93cccecf2794abda08",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-mobile-sop-wide.png": {
+    "mtime": 1790664851.3874242,
+    "seen": 1790664930.8396347,
+    "ast_hash": "0d9b895241aebf94a2e45e812db9fd02",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-mobile-warek-wide.png": {
+    "mtime": 1790664853.6804478,
+    "seen": 1790664930.8396347,
+    "ast_hash": "fb436a3cf64217b0782760359aed1441",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Hero section.jpg": {
+    "mtime": 1790675235.3134823,
+    "seen": 1790676421.4588733,
+    "ast_hash": "4ab0d9a3a1835e761b183c6fd7dcb45a",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Kepala BAK - Dr Atti Herawati.png": {
+    "mtime": 1790675512.6057174,
+    "seen": 1790676421.4588733,
+    "ast_hash": "ebb002633844f7c1eb5ba3b7ac0d7152",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Kepala Bagian Akademik - Boldson Herdianto Situmorang.png": {
+    "mtime": 1790673624.102944,
+    "seen": 1790676421.4588733,
+    "ast_hash": "6e17dc9d97ca054a19d3a32a51243c7b",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Kepala Bagian Alumni dan Kemahasiswaan.png": {
+    "mtime": 1790674319.0176816,
+    "seen": 1790676421.4588733,
+    "ast_hash": "d447135a11dc80a9f647fd303313a268",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Kepala Humas dan Promosi.png": {
+    "mtime": 1790675786.2635238,
+    "seen": 1790676421.4588733,
+    "ast_hash": "5360e1a6ba8e5ec3f067a6a0f51a5c30",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Staf Administrasi Akademik - Kartiwa.png": {
+    "mtime": 1777946296.3193889,
+    "seen": 1790676421.4588733,
+    "ast_hash": "092d9eaf4858f0223b8605b93233afcd",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Staf Administrasi Akademik - Novia Selviani.png": {
+    "mtime": 1790675453.9795287,
+    "seen": 1790676421.4588733,
+    "ast_hash": "cceaa3af2c6e063aef6de56bf22f839c",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Staf Administrasi Akademik - R D Putri Anugrah.png": {
+    "mtime": 1790676186.0785966,
+    "seen": 1790676421.4588733,
+    "ast_hash": "181a0117e36fd9cad87358869293e5d1",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Staf Humas dan Promosi - Julian Ferdika.png": {
+    "mtime": 1745463530.761569,
+    "seen": 1790676421.4588733,
+    "ast_hash": "40d7f5465522e3d6afad29ba46dc69c1",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Staf Humas dan Promosi - Kendra Permana.png": {
+    "mtime": 1745461701.208623,
+    "seen": 1790676421.4588733,
+    "ast_hash": "302a9cb3d06c7bfc7d6c51bc9a4863d9",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Staf Humas dan Promosi - Oly Nurmansyah.png": {
+    "mtime": 1745463639.4959812,
+    "seen": 1790676421.4588733,
+    "ast_hash": "ad0abf65344f724bc21dad4a1c934b94",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Staf Humas dan Promosi - Rini Anggraeni.png": {
+    "mtime": 1790675154.5842896,
+    "seen": 1790676421.4588733,
+    "ast_hash": "1f7543bb38dd40ffe69fb8bd78217b0f",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Staf IT - M Agung Ardiansyah.png": {
+    "mtime": 1790675356.1992083,
+    "seen": 1790676421.4588733,
+    "ast_hash": "54e0d7ea9ff2862211c6acaad5612872",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Staf Kemahasiswaan - Karina Apriyani.png": {
+    "mtime": 1745461612.7969441,
+    "seen": 1790676421.4588733,
+    "ast_hash": "d09bd35f0610e1d22b6cf2c455e6253c",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Staf Keuangan - Nabila Choirunnisa.png": {
+    "mtime": 1790675686.0564206,
+    "seen": 1790676421.4588733,
+    "ast_hash": "7c3cc3d1a3d014f23dd8c1fa883688b3",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/PKKMB 2026 - 1.jpeg": {
+    "mtime": 1790732103.4889038,
+    "seen": 1790732603.3581884,
+    "ast_hash": "33369171c75bbdafb7ad67e1c1be450e",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/PKKMB 2026 - 2.jpeg": {
+    "mtime": 1790732113.7724638,
+    "seen": 1790732603.3581884,
+    "ast_hash": "5520a90758cd1d5f1f700edf08379f90",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-hero-desktop.png": {
+    "mtime": 1790676679.769693,
+    "seen": 1790732603.3581884,
+    "ast_hash": "9ac295755faff651001cfb84f19dd103",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-hero-mobile.png": {
+    "mtime": 1790676682.3056507,
+    "seen": 1790732603.3581884,
+    "ast_hash": "0d9d962f229ec0dc13a7aeb66e63febb",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Konferensi IUCN IdSSG 2026.webp": {
+    "mtime": 1790739258.4493687,
+    "seen": 1790740085.5801718,
+    "ast_hash": "b63aa95133d2f0519c47824131b56cc4",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Staf Keuangan Haura.png": {
+    "mtime": 1790738949.511089,
+    "seen": 1790740085.5801718,
+    "ast_hash": "15d360efca396defdf4a9f2eefd3c498",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Sertifikasi ISO - 1.jpeg": {
+    "mtime": 1790740161.438651,
+    "seen": 1790740592.588544,
+    "ast_hash": "e4075ed6127160232494fc7a97224570",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Sertifikasi ISO - 2.jpeg": {
+    "mtime": 1790740165.886399,
+    "seen": 1790740592.588544,
+    "ast_hash": "7ac0cef7d4a0312f8775db2742db73e4",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Sertifikasi ISO - 3.jpeg": {
+    "mtime": 1790740177.5364301,
+    "seen": 1790740592.588544,
+    "ast_hash": "ebd2e91dcf10bdfce02696527bbb95ea",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Sertifikasi ISO - 4.jpeg": {
+    "mtime": 1790740171.8418822,
+    "seen": 1790740592.588544,
+    "ast_hash": "81df7cb2a1a4b8521eeeddab97915adf",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/PMB.jpg": {
+    "mtime": 1790741056.067991,
+    "seen": 1790741268.592295,
+    "ast_hash": "11907676fb862a445459816975873f97",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/magang_batch2.jpeg": {
+    "mtime": 1790910922.0,
+    "seen": 1790912475.9744866,
+    "ast_hash": "dc4f630d3087f05da749cdf7a9a3bf9f",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/magang_della.jpeg": {
+    "mtime": 1790912195.5813353,
+    "seen": 1790912475.9744866,
+    "ast_hash": "8940f13eb6f2edde49dbe54fbb1bbdaf",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/magang_eja.jpeg": {
+    "mtime": 1790912195.9519105,
+    "seen": 1790912475.9744866,
+    "ast_hash": "5322ca67baf7c923470bd343c2cb1f89",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/magang_isel.jpeg": {
+    "mtime": 1790912195.7674506,
+    "seen": 1790912475.9744866,
+    "ast_hash": "595eeed2c5eb0c55e2356fd53b6ee25d",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Benchmarking Telkom University - 2.jpeg": {
+    "mtime": 1791503684.0,
+    "seen": 1791529557.4569702,
+    "ast_hash": "4120b1df593eca2fee4392e8a43d93a1",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Benchmarking Telkom University - 3.jpeg": {
+    "mtime": 1791503684.0,
+    "seen": 1791529557.4569702,
+    "ast_hash": "83479a79e0d252113a7fa208badc555d",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Benchmarking Telkom University.jpeg": {
+    "mtime": 1791503684.0,
+    "seen": 1791529557.4569702,
+    "ast_hash": "bb49b408d92032edb439518f23157799",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Benchmarking UPI - 2.jpeg": {
+    "mtime": 1791503684.0,
+    "seen": 1791529557.4569702,
+    "ast_hash": "29a470e506b25988e6c5907addb0eef0",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Benchmarking UPI - 3.jpeg": {
+    "mtime": 1791503684.0,
+    "seen": 1791529557.4569702,
+    "ast_hash": "3b2d106f84d75f2b53cd4489fff6fb5b",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/Benchmarking UPI.jpeg": {
+    "mtime": 1791503684.0,
+    "seen": 1791529557.4569702,
+    "ast_hash": "3ae0cb2f4dc0e156fd97446a00dcdcec",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-benchmarking.png": {
+    "mtime": 1791529528.504876,
+    "seen": 1791529557.4569702,
+    "ast_hash": "ae29348ea8c0ef5a0a26858612af0dec",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-galeri-list.png": {
+    "mtime": 1791529538.1613522,
+    "seen": 1791529557.4569702,
+    "ast_hash": "6d05ed95cf62a030275807dccc48010b",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-sop-exchange.png": {
+    "mtime": 1791529882.4535048,
+    "seen": 1791529891.206982,
+    "ast_hash": "4e08510badb93312c3e16b9cb8e9a173",
+    "semantic_hash": ""
+  }
+}

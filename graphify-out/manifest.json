@@ -186,9 +186,9 @@
     "semantic_hash": ""
   },
   "components/pages/BeritaDetailPage.js": {
-    "mtime": 1790740430.7035549,
-    "seen": 1790740592.588544,
-    "ast_hash": "a1212c8e65fc937da2039f7982eb4a2a",
+    "mtime": 1793593655.3052948,
+    "seen": 1793593704.1105788,
+    "ast_hash": "9a4128eac4931aad03a7affcad40c731",
     "semantic_hash": ""
   },
   "components/pages/BeritaPage.js": {
@@ -258,10 +258,10 @@
     "semantic_hash": "7fa996ea8ea91fe78ee85f886f4270df"
   },
   "components/ui/ActivityPhotoGrid.js": {
-    "mtime": 1790575525.669134,
-    "seen": 1790647343.2597332,
-    "ast_hash": "dd54f5721ce1c2541b9c9de328f8fe2a",
-    "semantic_hash": "dd54f5721ce1c2541b9c9de328f8fe2a"
+    "mtime": 1793593617.044837,
+    "seen": 1793593704.1105788,
+    "ast_hash": "c9b7b034645853cae27ec81637b85fa0",
+    "semantic_hash": ""
   },
   "dictionaries/beranda.js": {
     "mtime": 1790676633.2161703,
@@ -270,9 +270,9 @@
     "semantic_hash": ""
   },
   "dictionaries/berita.js": {
-    "mtime": 1790741726.2466857,
-    "seen": 1790741842.3731875,
-    "ast_hash": "188dec329272469c874eb05d3f88b0d7",
+    "mtime": 1793593322.7150707,
+    "seen": 1793593704.1105788,
+    "ast_hash": "502d9d40b9cf7b70a2a9aed876518982",
     "semantic_hash": ""
   },
   "dictionaries/common.js": {
@@ -414,9 +414,9 @@
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1790645117.993372,
-    "seen": 1790650162.2945337,
-    "ast_hash": "c708d4347fde175d3de55987a78fa47b",
+    "mtime": 1791529897.562498,
+    "seen": 1793593704.1105788,
+    "ast_hash": "79129cea66c4665773afd10d10641636",
     "semantic_hash": ""
   },
   "brand_assets/brand_guideline.txt": {
@@ -1119,6 +1119,36 @@
     "mtime": 1791529882.4535048,
     "seen": 1791529891.206982,
     "ast_hash": "4e08510badb93312c3e16b9cb8e9a173",
+    "semantic_hash": ""
+  },
+  "components/ui/BeritaPhotoViewer.js": {
+    "mtime": 1793593642.7058623,
+    "seen": 1793593704.1105788,
+    "ast_hash": "9290ddc1b6aff75c14cd120947226ec5",
+    "semantic_hash": ""
+  },
+  "components/ui/PhotoLightbox.js": {
+    "mtime": 1793593610.4081638,
+    "seen": 1793593704.1105788,
+    "ast_hash": "abf84e8116ac6989f81cd12329759b72",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/flayer_bipa_2026.jpg": {
+    "mtime": 1793582164.7814615,
+    "seen": 1793593704.1105788,
+    "ast_hash": "e92ad10209202daf8fdaff95f79bce64",
+    "semantic_hash": ""
+  },
+  "public/brand_assets/flayer_ita_2026.jpg": {
+    "mtime": 1793593236.4009085,
+    "seen": 1793593704.1105788,
+    "ast_hash": "94e4100715cb3158ccb806717ce5c677",
+    "semantic_hash": ""
+  },
+  "temporary screenshots/screenshot-1-berita-detail.png": {
+    "mtime": 1793593672.0856285,
+    "seen": 1793593704.1105788,
+    "ast_hash": "a8892841cf9ab30d71a6402eb6179863",
     "semantic_hash": ""
   }
 }

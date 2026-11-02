@@ -3,6 +3,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import PageHeader from "@/components/layout/PageHeader";
 import SectionTabs from "@/components/layout/SectionTabs";
+import { BeritaHeroImage, BeritaImageGrid } from "@/components/ui/BeritaPhotoViewer";
 import { ArrowLeft, ArrowRight, CalendarBlank } from "@phosphor-icons/react/dist/ssr";
 import { berita } from "@/dictionaries/berita";
 import { NAV_ITEMS, common } from "@/dictionaries/common";
@@ -44,27 +45,7 @@ export default function BeritaDetailPage({ locale, slug }) {
           {item.date}
         </div>
 
-        <div className="relative mt-6 aspect-[16/9] overflow-hidden rounded-xl shadow-card">
-          {item.images?.[0] ? (
-            <Image
-              src={asset(item.images[0])}
-              alt=""
-              fill
-              sizes="(min-width: 1024px) 60vw, 90vw"
-              className="object-cover"
-              priority
-            />
-          ) : (
-            <Image
-              src={`https://placehold.co/1200x675/25283d/ffffff.png?text=${encodeURIComponent(item.category)}`}
-              alt=""
-              fill
-              unoptimized
-              sizes="(min-width: 1024px) 60vw, 90vw"
-              className="object-cover"
-            />
-          )}
-        </div>
+        <BeritaHeroImage images={item.images ?? []} category={item.category} />
 
         <div className="mt-8 flex flex-col gap-5">
           {item.body.map((paragraph, index) => (
@@ -74,15 +55,7 @@ export default function BeritaDetailPage({ locale, slug }) {
           ))}
         </div>
 
-        {item.images?.length > 1 && (
-          <div className="mt-8 grid gap-5 sm:grid-cols-2">
-            {item.images.slice(1).map((image) => (
-              <div key={image} className="relative aspect-[16/9] overflow-hidden rounded-xl shadow-card">
-                <Image src={asset(image)} alt="" fill sizes="(min-width: 1024px) 30vw, 90vw" className="object-cover" />
-              </div>
-            ))}
-          </div>
-        )}
+        {item.images?.length > 1 && <BeritaImageGrid images={item.images} />}
 
         <Link
           href={`${base}/pengumuman/berita`}
